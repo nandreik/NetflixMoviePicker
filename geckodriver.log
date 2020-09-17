@@ -1,0 +1,16 @@
+1600379023707	geckodriver	INFO	Listening on 127.0.0.1:54251
+1600379026783	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Nikita\\AppData\\Local\\Temp\\rust_mozprofileZCfNBi"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600379031243	Marionette	INFO	Listening on port 54259
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages wiJavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ificate errors will be ignored for this session
+1600379036587	Marionette	INFO	Stopped listening on port 54259
+ionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1600378759730	Marionette	INFO	Stopped listening on port 53862
+##!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
