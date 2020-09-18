@@ -1,16 +1,16 @@
-1600379023707	geckodriver	INFO	Listening on 127.0.0.1:54251
-1600379026783	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Nikita\\AppData\\Local\\Temp\\rust_mozprofileZCfNBi"
+1600395793755	geckodriver	INFO	Listening on 127.0.0.1:61699
+1600395796790	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Nikita\\AppData\\Local\\Temp\\rust_mozprofiledbIar7"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1600379031243	Marionette	INFO	Listening on port 54259
+1600395801432	Marionette	INFO	Listening on port 61707
+1600395801632	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600395806752	Marionette	INFO	Stopped listening on port 61707
+[Child 64656, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
 
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages wiJavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-ificate errors will be ignored for this session
-1600379036587	Marionette	INFO	Stopped listening on port 54259
-ionette/content/sync.js:230:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
-webdriverClickElement@chrome://marionette/content/interaction.js:182:31
-1600378759730	Marionette	INFO	Stopped listening on port 53862
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+t/interaction.js:182:31
+1600395449538	Marionette	INFO	Stopped listening on port 61245
 ##!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 

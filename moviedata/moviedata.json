@@ -1,0 +1,34 @@
+{
+    "user": {
+        "username": "user", 
+        "password": "pass", 
+        "movieList": {
+            "Invisible": {
+                "movieInfo": {
+                    "name": "Invisible", 
+                    "image": "https://img.reelgood.com/content/movie/baff8057-eebb-4805-bf57-d499cb5345fe/poster-92.jpg", 
+                    "length": "1h 27m", 
+                    "rg": "RG: 44", 
+                    "imdb": "IMDB: 6/10", 
+                    "year": "2017", 
+                    "genre": "Drama", 
+                    "desc": "Ely is 17 years old. After school, she works few hours at a pet shop. When Ely learns that she..."
+                }, 
+                "userChoice": ""
+            }, 
+            "The Cell": {
+                "movieInfo": {
+                    "name": "The Cell", 
+                    "image": "https://img.reelgood.com/content/movie/3f7ef6d7-84c5-47c2-ab10-faa9d7d16abe/poster-92.jpg", 
+                    "length": "2h 6m", 
+                    "rg": "RG: 47", 
+                    "imdb": "IMDB: 6.4/10", 
+                    "year": "2017", 
+                    "genre": "Action & Adventure, Drama", 
+                    "desc": "The events revolve around a special operations officer who deals with more than one terrorist operation and is hunting down..."
+                }, 
+                "userChoice": ""
+            }
+        }
+    }
+}
