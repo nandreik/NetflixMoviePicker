@@ -12,7 +12,7 @@ def initDriver():   # connect web driver to roulette url
     # driverPath = r'C:\Users\Nikita\PycharmProjects\NetflixMoviePicker\webdriver\geckodriver.exe'
     driverPath = r'webdriver/geckodriver.exe'
     options = Options()
-    options.headless = True  # run browser windowless
+    # options.headless = True  # run browser windowless
     driver = webdriver.Firefox(options=options, executable_path=driverPath)
     driver.get(url)
     return driver
@@ -22,15 +22,15 @@ def initSpin(driver):   # set up spin options for movies only and any score
     # genre is set to all genres by default
     # imdb score is set to any by default
     # uncheck TV Shows in type to only spin for movies
-    tvButton = driver.find_element_by_xpath(
-        "/html/body/div[1]/div[3]/main/div[2]/div[2]/div[1]/div[1]/div[2]/div/label[2]/span[1]")
+    # tvButton = driver.find_element_by_xpath("/html/body/div[1]/div[3]/main/div[2]/div[2]/div[1]/div[1]/div[2]/div/label[2]/span[1]")
+    tvButton = driver.find_element_by_css_selector("label.css-18syq1s:nth-child(2) > span:nth-child(3)")
     tvButton.click()
     # set rg score to any
-    rgMenu = driver.find_element_by_xpath(
-        "/html/body/div[1]/div[3]/main/div[2]/div[2]/div[1]/div[1]/div[4]/div/div/div[1]")  # click open rg score menu
+    # rgMenu = driver.find_element_by_xpath("/html/body/div[1]/div[3]/main/div[2]/div[2]/div[1]/div[1]/div[4]/div/div/div[1]")  # click open rg score menu
+    rgMenu = driver.find_element_by_css_selector("div.css-1dsqg0t:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1)")
     rgMenu.click()
-    rgAnyScore = driver.find_element_by_xpath(
-        "/html/body/div[1]/div[3]/main/div[2]/div[2]/div[1]/div[1]/div[4]/div/div/div[2]/div[6]")  # click on any score option
+    # rgAnyScore = driver.find_element_by_xpath("/html/body/div[1]/div[3]/main/div[2]/div[2]/div[1]/div[1]/div[4]/div/div/div[2]/div[6]")  # click on any score option
+    rgAnyScore = driver.find_element_by_css_selector(".css-1jcj7xc > div:nth-child(6)")
     rgAnyScore.click()
     return driver
 
@@ -38,18 +38,23 @@ def initSpin(driver):   # set up spin options for movies only and any score
 def findMovie(driver):  # spin for a movie and return its info as json string
     # check for popup, if it exists then exit it
     try:
-        popupExit = driver.find_element_by_xpath("/html/body/div[2]/div/div/div[2]/div[1]/span")
+        # popupExit = driver.find_element_by_xpath("/html/body/div[2]/div/div/div[2]/div[1]/span")
+        popupExit = driver.find_element_by_css_selector(".css-1y9bki9")
         popupExit.click()
-        # print("Popup Exited")
+        # finding element by css selector fixes crash issue, likely because xpath gets changed from second popup and breaks original xpaths to elements
+        # appPopupExit = driver.find_element_by_xpath("/html/body/div[1]/div[1]/div/div[1]/span")
+        # appPopupExit.click()
+
     # except exceptions.NoSuchElementException:
-        # print("No Popup Found")
     finally:
         # spin
-        spinButton = driver.find_element_by_xpath("/html/body/div[1]/div[3]/main/div[2]/div[2]/div[1]/div[2]/button")
+        # spinButton = driver.find_element_by_xpath("/html/body/div[1]/div[3]/main/div[2]/div[2]/div[1]/div[2]/button")
+        spinButton = driver.find_element_by_css_selector(".css-1lm9uo8")
         spinButton.click()
         # find movie details
-        sleep(.25)  # wait a bit to let movie info load, otherwise may try to read before it is loaded
-        movieElem = driver.find_element_by_xpath("/html/body/div[1]/div[3]/main/div[2]/div[2]/div[2]/div").text.splitlines()
+        sleep(.5)  # wait a bit to let movie info load, otherwise may try to read before it is loaded
+        # movieElem = driver.find_element_by_xpath("/html/body/div[1]/div[3]/main/div[2]/div[2]/div[2]/div").text.splitlines()
+        movieElem = driver.find_element_by_css_selector(".css-hin13p").text.splitlines()
         infoTemp = ["name", "year", "imdb", "rg", "length", "genre", "desc"]
         movie = {}  # dict for name only that holds dict with movie info
         movieInfo = {}  # dictionary for movie information
@@ -58,7 +63,11 @@ def findMovie(driver):  # spin for a movie and return its info as json string
             val = normalize('NFKD', movieElem[i]).encode('ascii', 'ignore')     # normalize unicode, some movies can have weird chars that don't translate to ascii well
             movieInfo[key] = val.decode('utf-8')
         # add the movie image because why not
-        image = driver.find_element_by_xpath("/html/body/div[1]/div[3]/main/div[2]/div[2]/div[2]/a/div/div/picture/img").get_attribute("src")
+        # image = driver.find_element_by_xpath("/html/body/div[1]/div[3]/main/div[2]/div[2]/div[2]/a/div/div/picture/img").get_attribute("src")
+        try:
+            image = driver.find_element_by_css_selector(".css-1sz776d").get_attribute("src")
+        except exceptions.NoSuchElementException:
+            image = ""
         movieInfo["image"] = image
         # add key for user decision for movie ("yes"/"no")
         movie["userChoice"] = ""
@@ -164,7 +173,6 @@ def loginMenu(driver, userDict):
         if choice == 1:
             # enter spin menu
             spinMenu(driver, userDict)
-            break
         elif choice == 2:
             # enter name of other user
             print("ENTER OTHER USERNAME: ")
@@ -295,6 +303,7 @@ if __name__ == "__main__":
     # login/create user
     user = initMenu()
     if user:
+        webDriver = None
         try:
             # set up web driver and correct options for spin
             webDriver = initDriver()
@@ -305,3 +314,5 @@ if __name__ == "__main__":
             # close/quit driver
             webDriver.close()
             webDriver.quit()
+    else:
+        print("User Not Found")
