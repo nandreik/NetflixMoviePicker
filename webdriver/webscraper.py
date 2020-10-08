@@ -41,12 +41,10 @@ def findMovie(driver):  # spin for a movie and return its info as json string
 
     finally:
         # spin
-        # spinButton = driver.find_element_by_xpath("/html/body/div[1]/div[3]/main/div[2]/div[2]/div[1]/div[2]/button")
         spinButton = driver.find_element_by_css_selector(".css-1lm9uo8")
         spinButton.click()
         # find movie details
         sleep(.5)  # wait a bit to let movie info load, otherwise may try to read before it is loaded
-        # movieElem = driver.find_element_by_xpath("/html/body/div[1]/div[3]/main/div[2]/div[2]/div[2]/div").text.splitlines()
         movieElem = driver.find_element_by_css_selector(".css-hin13p").text.splitlines()
         infoTemp = ["name", "year", "imdb", "rg", "length", "genre", "desc"]
         movie = {}  # dict for name only that holds dict with movie info
