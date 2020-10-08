@@ -11,6 +11,7 @@ django = "*"
 gunicorn = "*"
 heroku = "*"
 django-crispy-forms = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.8"

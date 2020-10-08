@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'pages.apps.PagesConfig',    # new
     # 3d party
     'crispy_forms',     # new
+    'whitenoise.runserver_nostatic',    # new
     # 'django_celery_results',    # new
 ]
 
@@ -57,6 +58,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',   # new
 ]
 
 ROOT_URLCONF = 'webapp.urls'
@@ -131,8 +133,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'     # new
-STATIC_ROOT = '/static/'     # new
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')     # new
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]   # new
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'     # new
 CRISPY_TEMPLATE_PACK = 'bootstrap4'     # new
 
 # celery stuff
