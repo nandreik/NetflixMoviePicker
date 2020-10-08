@@ -1,0 +1,56 @@
+<!-- templates/findmovie.html -->
+{% extends 'base.html' %}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Movie</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" /> <!-- css doesn't seem to load from style.css -->
+</head>
+
+<body>
+{% block content %}
+{% if user.is_authenticated %}
+    <div class="movie-container" style="display:flex">
+        {% if movie.movieInfo %}
+            <div class="movie-info" style="flex: 1; padding:1rem">
+                <h3 style="font-weight: bold">{{ movie.movieInfo.name }} ({{ movie.movieInfo.year }})</h3>
+                <br>
+                <h5 style="padding-left: 100px">{{ movie.movieInfo.imdb }}</h5>
+                <h5 style="padding-left: 100px">{{ movie.movieInfo.rg }}</h5>
+                <h5 style="padding-left: 100px">Length: {{ movie.movieInfo.length }}</h5>
+                <h5 style="padding-left: 100px">Genre: {{ movie.movieInfo.genre }}</h5>
+                <br>
+                <h5 style="text-decoration: underline">Description</h5>
+                <p style="font-size:20px">{{ movie.movieInfo.desc }}</p>
+            </div>
+            {% if movie.movieInfo.image %}
+                <div class="movie-poster" style="flex: 1; padding:1rem">
+                    <img src="{{ movie.movieInfo.image }}" style="border: 2px solid black; width:400px"/>
+                </div>
+            {% endif %}
+        {% endif %}
+    </div>
+    <div class="buttons" style="margin: auto; width:50%; text-align:center">
+        <form method="post">
+            {% csrf_token %}
+            <button class="btn btn-success ml-2" style="margin-bottom:2%; margin-top:2%; width:200px; height:100px" type="submit" name="spin-btn" value="click">Find Movie</button>
+        </form>
+        {% if movie.movieInfo %}
+            <h3>Would you watch this movie?</h3>
+            <form method="post">
+                {% csrf_token %}
+                <button class="btn btn-success ml-2" style="margin:10px; width:100px" type="submit" name="yes-btn" value="{{ movie }}">Yes</button>
+                <button class="btn btn-success ml-2" style="margin:10px; width:100px" type="submit" name="no-btn" value="{{ movie }}">No</button>
+            </form>
+        {% endif %}
+    </div>
+{% else %}
+    <h1 style="margin-bottom:2%">Please log in or sign up for an account.</h1>
+    <p><a href="{% url 'login' %}">Log In</a></p>
+    <p><a href="{% url 'signup' %}">Sign Up</a></p>
+{% endif %}
+
+{% endblock content %}
+</body>
+</html>

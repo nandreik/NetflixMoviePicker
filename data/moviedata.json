@@ -1,0 +1,1799 @@
+{
+    "user": {
+        "username": "user",
+        "password": "pass",
+        "movieList": {
+            "Invisible": {
+                "movieInfo": {
+                    "name": "Invisible",
+                    "image": "https://img.reelgood.com/content/movie/baff8057-eebb-4805-bf57-d499cb5345fe/poster-92.jpg",
+                    "length": "1h 27m",
+                    "rg": "RG: 44",
+                    "imdb": "IMDB: 6/10",
+                    "year": "2017",
+                    "genre": "Drama",
+                    "desc": "Ely is 17 years old. After school, she works few hours at a pet shop. When Ely learns that she..."
+                },
+                "userChoice": "Yes"
+            },
+            "The Cell": {
+                "movieInfo": {
+                    "name": "The Cell",
+                    "image": "https://img.reelgood.com/content/movie/3f7ef6d7-84c5-47c2-ab10-faa9d7d16abe/poster-92.jpg",
+                    "length": "2h 6m",
+                    "rg": "RG: 47",
+                    "imdb": "IMDB: 6.4/10",
+                    "year": "2017",
+                    "genre": "Action & Adventure, Drama",
+                    "desc": "The events revolve around a special operations officer who deals with more than one terrorist operation and is hunting down..."
+                },
+                "userChoice": ""
+            },
+            "The Invisible Guest": {
+                "userChoice": "",
+                "movieInfo": {
+                    "name": "The Invisible Guest",
+                    "year": "2016",
+                    "imdb": "IMDB: 8.1/10",
+                    "rg": "RG: 86",
+                    "length": "1h 46m",
+                    "genre": "Crime, Mystery",
+                    "desc": "A young businessman wakes up in a hotel room, locked from the inside, along with his lover, who was murdered...",
+                    "image": "https://img.reelgood.com/content/movie/cacdbb72-2b54-4b28-b164-e3b45d252b7f/poster-92.jpg"
+                }
+            },
+            "Sofia Nino de Rivera: Exposed": {
+                "userChoice": "",
+                "movieInfo": {
+                    "name": "Sofia Nino de Rivera: Exposed",
+                    "year": "2016",
+                    "imdb": "IMDB: 7.4/10",
+                    "rg": "RG: 46",
+                    "length": "1h 20m",
+                    "genre": "Comedy, Stand-up & Talk",
+                    "desc": "Self-deprecating comic Sofia Nino de Rivera puts her sarcasm on full display in this stand-up special filmed live at Guadalajara's...",
+                    "image": "https://img.reelgood.com/content/movie/01e43cb9-34f5-4f5a-b384-1195b98406a2/poster-92.jpg"
+                }
+            },
+            "Annabelle Hooper and the Ghosts of Nantucket": {
+                "userChoice": "",
+                "movieInfo": {
+                    "name": "Annabelle Hooper and the Ghosts of Nantucket",
+                    "year": "2016",
+                    "imdb": "IMDB: 5.6/10",
+                    "rg": "RG: 48",
+                    "length": "1h 32m",
+                    "genre": "Action & Adventure, Family",
+                    "desc": "Vacationing on historic Nantucket Island, a teenage mystery writer and her friends must outwit two scheming thieves to solve the...",
+                    "image": "https://img.reelgood.com/content/movie/6a91e477-1488-40e1-beb2-9b756c0e225f/poster-92.jpg"
+                }
+            },
+            "Fronteras": {
+                "userChoice": "",
+                "movieInfo": {
+                    "name": "Fronteras",
+                    "year": "2020",
+                    "imdb": "IMDB: 4.3/10",
+                    "rg": "RG: 42",
+                    "length": "1h 45m",
+                    "genre": "Drama, Mystery",
+                    "desc": "A Hispanic Border Patrol Agent has his morals challenged when a life-threatening narcotic sweeps through the South West. Reyes finds...",
+                    "image": "https://img.reelgood.com/content/movie/fea9d24c-0e1d-44a2-9605-a7cc840424cb/poster-92.jpg"
+                }
+            },
+            "Best Worst Thing That Ever Could Have Happened...": {
+                "userChoice": "",
+                "movieInfo": {
+                    "name": "Best Worst Thing That Ever Could Have Happened...",
+                    "year": "2016",
+                    "imdb": "IMDB: 7.5/10",
+                    "rg": "RG: 66",
+                    "length": "1h 36m",
+                    "genre": "Documentary",
+                    "desc": "This film from acclaimed theater director Lonny Price charts the journey of the original cast of Stephen Sondheim's \"Merrily We...",
+                    "image": "https://img.reelgood.com/content/movie/75265cd7-bcc2-4a07-af0b-5c1c6ff9192b/poster-92.jpg"
+                }
+            },
+            "Truth or Dare": {
+                "userChoice": "",
+                "movieInfo": {
+                    "name": "Truth or Dare",
+                    "year": "2017",
+                    "imdb": "IMDB: 5/10",
+                    "rg": "RG: 44",
+                    "length": "1h 30m",
+                    "genre": "Horror, Mystery",
+                    "desc": "Eight college friends head to a \"Haunted Rental\" in a remote town for Halloween weekend. There, they play the game...",
+                    "image": "https://img.reelgood.com/content/movie/76c6a6c8-adb4-42c0-8246-8c8c4eee395d/poster-92.jpg"
+                }
+            },
+            "Love Wedding Repeat": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Love Wedding Repeat",
+                    "year": "2020",
+                    "imdb": "IMDB: 5.5/10",
+                    "rg": "RG: 51",
+                    "length": "1h 40m",
+                    "genre": "Comedy",
+                    "desc": "While trying to make his sister's wedding day go smoothly, Jack finds himself juggling an angry ex-girlfriend, an uninvited guest...",
+                    "image": "https://img.reelgood.com/content/movie/f31aa5fe-bacb-483a-ac6e-bc78a6db19ce/poster-92.jpg"
+                }
+            },
+            "Tottaa Pataaka Item Maal": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Tottaa Pataaka Item Maal",
+                    "year": "2018",
+                    "imdb": "IMDB: 8/10",
+                    "rg": "RG: 48",
+                    "length": "1h 47m",
+                    "genre": "Drama",
+                    "desc": "Four women from Delhi, NCR and Gurgaon, tired of dealing with the incessant fear or rape, decide to teach one...",
+                    "image": "https://img.reelgood.com/content/movie/dd42c05d-f533-4ad9-823f-26e32933b01d/poster-92.jpg"
+                }
+            },
+            "Die Ontwaking": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Die Ontwaking",
+                    "year": "2016",
+                    "imdb": "IMDB: 4.4/10",
+                    "rg": "RG: 33",
+                    "length": "1h 37m",
+                    "genre": "Crime, Horror",
+                    "desc": "Abel is preparing for a special gift to himself on his 50th Birthday. He wants to find himself a new...",
+                    "image": "https://img.reelgood.com/content/movie/affba917-5205-46a8-9fad-8011210d32f5/poster-780.jpg"
+                }
+            },
+            "In Darkness": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "In Darkness",
+                    "year": "2018",
+                    "imdb": "IMDB: 5.8/10",
+                    "rg": "RG: 60",
+                    "length": "1h 40m",
+                    "genre": "Thriller, Mystery",
+                    "desc": "A blind musician hears a murder committed in the apartment upstairs from hers that sends her down a dark path...",
+                    "image": "https://img.reelgood.com/content/movie/703b2e46-9be4-4e0c-9eec-a950dd03ed66/poster-780.jpg"
+                }
+            },
+            "Petta": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Petta",
+                    "year": "2019",
+                    "imdb": "IMDB: 7.2/10",
+                    "rg": "RG: 71",
+                    "length": "2h 52m",
+                    "genre": "Action & Adventure, Drama",
+                    "desc": "A hostel warden becomes the target of a dreaded politician and his gangster son, but little do they realise that...",
+                    "image": "https://img.reelgood.com/content/movie/21625ead-0abc-4a03-8083-dbc60f0267c0/poster-92.jpg"
+                }
+            },
+            "Kardec": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Kardec",
+                    "year": "2019",
+                    "imdb": "IMDB: 6.1/10",
+                    "rg": "RG: 51",
+                    "length": "1h 50m",
+                    "genre": "Drama, Biography",
+                    "desc": "The story of Allan Kardec, from his days as an educator to his contribution to the spiritist codification.",
+                    "image": "https://img.reelgood.com/content/movie/b9d2510a-f7d1-4e87-a90a-83c084272dc4/poster-92.jpg"
+                }
+            },
+            "Class Rank": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Class Rank",
+                    "year": "2017",
+                    "imdb": "IMDB: 6.4/10",
+                    "rg": "RG: 63",
+                    "length": "1h 41m",
+                    "genre": "Comedy, Family",
+                    "desc": "Two high school misfits join forces in an attempt to overtake the local school board. Guided by their families, they...",
+                    "image": "https://img.reelgood.com/content/movie/5bf38c2d-aad1-4bb4-af0f-27b608e0c7ca/poster-92.jpg"
+                }
+            },
+            "Ek Hasina Thi": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Ek Hasina Thi",
+                    "year": "2004",
+                    "imdb": "IMDB: 7.6/10",
+                    "rg": "RG: 56",
+                    "length": "2h 0m",
+                    "genre": "Crime, Romance",
+                    "desc": "A woman falls for a charming and mysterious businessman. The whirlwind romance turns sour when she is framed for his...",
+                    "image": "https://img.reelgood.com/content/movie/c2a03c36-854c-4a9b-b290-cf5a2fefb00b/poster-92.jpg"
+                }
+            },
+            "Shimmer Lake": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Shimmer Lake",
+                    "year": "2017",
+                    "imdb": "IMDB: 6.2/10",
+                    "rg": "RG: 55",
+                    "length": "1h 23m",
+                    "genre": "Crime, Drama",
+                    "desc": "An inventive crime thriller told backwards -- reversing day by day through a week -- following a local sheriff's quest...",
+                    "image": "https://img.reelgood.com/content/movie/f07fa559-f232-4bf9-962a-91749ef8b5cf/poster-92.jpg"
+                }
+            },
+            "An Education": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "An Education",
+                    "year": "2009",
+                    "imdb": "IMDB: 7.3/10",
+                    "rg": "RG: 83",
+                    "length": "1h 40m",
+                    "genre": "Drama, Romance",
+                    "desc": "Despite her sheltered upbringing, Jenny is a teen with a bright future; she's smart, pretty, and has aspirations of attending...",
+                    "image": "https://img.reelgood.com/content/movie/071b7610-3636-4eb8-b388-4f18dde99a13/poster-92.jpg"
+                }
+            },
+            "The Scorpion King: Book of Souls": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "The Scorpion King: Book of Souls",
+                    "year": "2018",
+                    "imdb": "IMDB: 4.6/10",
+                    "rg": "RG: 52",
+                    "length": "1h 42m",
+                    "genre": "Action & Adventure, Fantasy",
+                    "desc": "The Scorpion King teams up with a female warrior named Tala, who is the sister of The Nubian King. Together...",
+                    "image": "https://img.reelgood.com/content/movie/e18fa9af-a605-4fc8-84f3-020fcf6791f5/poster-92.jpg"
+                }
+            },
+            "Forever Chape": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Forever Chape",
+                    "year": "2018",
+                    "imdb": "IMDB: 7.1/10",
+                    "rg": "RG: 40",
+                    "length": "1h 13m",
+                    "genre": "In the wake of the plane crash that claimed the lives of 71 people, the Brazilian soccer club Chapecoense seeks...",
+                    "image": "https://img.reelgood.com/content/movie/43756dd8-bf23-4524-8939-a3fb64e75248/poster-92.jpg"
+                }
+            },
+            "Lion's Heart": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Lion's Heart",
+                    "year": "2013",
+                    "imdb": "IMDB: 6.7/10",
+                    "rg": "RG: 52",
+                    "length": "1h 40m",
+                    "genre": "Comedy, Drama",
+                    "desc": "Ivana Cornejo is just getting used to being single again after her divorce three years ago. After an exasperating call...",
+                    "image": "https://img.reelgood.com/content/movie/21adffcf-9962-44e1-9b4f-17a70ede1caf/poster-92.jpg"
+                }
+            },
+            "Chashme Baddoor": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Chashme Baddoor",
+                    "year": "2013",
+                    "imdb": "IMDB: 5.4/10",
+                    "rg": "RG: 45",
+                    "length": "1h 52m",
+                    "genre": "Comedy, Drama",
+                    "desc": "Siddharth, Omi, and Jai are close friends and roommates who are studying at Delhi University. Siddharth has completed M.A in...",
+                    "image": "https://img.reelgood.com/content/movie/d5a126d9-a55f-405b-b4d3-cce9259430bc/poster-92.jpg"
+                }
+            },
+            "Soni": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Soni",
+                    "year": "2019",
+                    "imdb": "IMDB: 7.2/10",
+                    "rg": "RG: 66",
+                    "length": "1h 37m",
+                    "genre": "Drama, Crime",
+                    "desc": "Soni, a young policewoman in Delhi, and her superintendent, Kalpana, have collectively taken on a growing crisis of violent crimes...",
+                    "image": "https://img.reelgood.com/content/movie/74f04889-e48b-45fe-b045-7be30e4dce5b/poster-92.jpg"
+                }
+            },
+            "Una": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Una",
+                    "year": "2017",
+                    "imdb": "IMDB: 6.2/10",
+                    "rg": "RG: 65",
+                    "length": "1h 34m",
+                    "genre": "Drama, Romance",
+                    "desc": "When a young woman unexpectedly arrives at an older man's workplace, looking for answers, the secrets of the past threaten...",
+                    "image": "https://img.reelgood.com/content/movie/2371c8bf-33f9-47bf-a444-9a95be4f3aab/poster-92.jpg"
+                }
+            },
+            "Melle": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Melle",
+                    "year": "2017",
+                    "imdb": "IMDB: 6.4/10",
+                    "rg": "RG: 40",
+                    "length": "1h 55m",
+                    "genre": "Family, Romance",
+                    "desc": "Uma, a young and bright student and her father, Job, an excellent musician living a happy and peaceful life together...",
+                    "image": "https://img.reelgood.com/content/movie/11a8f84a-e55f-43fe-bbe1-ec009cc573df/poster-92.jpg"
+                }
+            },
+            "Mucho Mucho Amor": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Mucho Mucho Amor",
+                    "year": "2020",
+                    "imdb": "IMDB: 7.3/10",
+                    "rg": "RG: 75",
+                    "length": "1h 36m",
+                    "genre": "Documentary",
+                    "desc": "Once the world's most famous astrologer, Walter Mercado seeks to resurrect a forgotten legacy. Raised in the sugar cane fields...",
+                    "image": "https://img.reelgood.com/content/movie/23e7af25-c201-46a7-ac81-6ca66a1e44ed/poster-92.jpg"
+                }
+            },
+            "Duplicate": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Duplicate",
+                    "year": "1998",
+                    "imdb": "IMDB: 5.5/10",
+                    "rg": "RG: 50",
+                    "length": "2h 45m",
+                    "genre": "Action & Adventure, Comedy",
+                    "desc": "Seeking vengeance on those who double-crossed him, an escaped prisoner impersonates an unsuspecting chef.",
+                    "image": "https://img.reelgood.com/content/movie/a157c911-2a67-42c8-b2b2-04a28ba9b9da/poster-92.jpg"
+                }
+            },
+            "ReMastered: The Lion's Share": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "ReMastered: The Lion's Share",
+                    "year": "2019",
+                    "imdb": "IMDB: 6.9/10",
+                    "rg": "RG: 44",
+                    "length": "1h 24m",
+                    "genre": "Documentary, Musical",
+                    "desc": "After discovering the family of Solomon Linda, the writer of \"The Lion Sleeps Tonight,\" a reporter tries to help them...",
+                    "image": "https://img.reelgood.com/content/movie/ce74f815-dca8-4a76-8b08-ee6cb069c10f/poster-780.jpg"
+                }
+            },
+            "Free Rein: The Twelve Neighs of Christmas": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Free Rein: The Twelve Neighs of Christmas",
+                    "year": "2018",
+                    "imdb": "IMDB: 7.5/10",
+                    "rg": "RG: 50",
+                    "length": "58 minutes",
+                    "genre": "Comedy, Drama",
+                    "desc": "As Bright Fields preps for its Mistletoe Ball, a broken ornament leads Zoe to a family secret, while Gaby finds...",
+                    "image": "https://img.reelgood.com/content/movie/a748a379-3d85-4019-91c8-c44bd6d988d8/poster-780.jpg"
+                }
+            },
+            "The Body Remembers When the World Broke Open": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Body Remembers When the World Broke Open",
+                    "year": "2019",
+                    "imdb": "IMDB: 6.8/10",
+                    "rg": "RG: 61",
+                    "length": "1h 45m",
+                    "genre": "Drama",
+                    "desc": "When Aila encounters a young Indigenous woman, barefoot and crying in the rain on the side of a busy street,...",
+                    "image": "https://img.reelgood.com/content/movie/20d13f19-1119-4a64-8ef8-afc8595fd36b/poster-780.jpg"
+                }
+            },
+            "A Tale of Two Kitchens": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "A Tale of Two Kitchens",
+                    "year": "2019",
+                    "imdb": "IMDB: 6.4/10",
+                    "rg": "RG: 44",
+                    "length": "29 minutes",
+                    "genre": "Documentary, Food",
+                    "desc": "Two countries, two restaurants, one vision. At Gabriela Camara's acclaimed Contramar in Mexico City, the welcoming, uniformed waiters are as...",
+                    "image": "https://img.reelgood.com/content/movie/4b7af5f2-e2bb-4316-91a6-de47852da544/poster-780.jpg"
+                }
+            },
+            "The Meyerowitz Stories (New and Selected)": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Meyerowitz Stories (New and Selected)",
+                    "year": "2017",
+                    "imdb": "IMDB: 6.9/10",
+                    "rg": "RG: 77",
+                    "length": "1h 52m",
+                    "genre": "Comedy, Drama",
+                    "desc": "An estranged family gathers together in New York for an event celebrating the artistic work of their father.",
+                    "image": "https://img.reelgood.com/content/movie/da6ae462-b573-4deb-8b10-74589f0ed8ce/poster-780.jpg"
+                }
+            },
+            "Super Monsters Save Halloween": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Super Monsters Save Halloween",
+                    "year": "2018",
+                    "imdb": "IMDB: 5.4/10",
+                    "rg": "RG: 38",
+                    "length": "24 minutes",
+                    "genre": "Animation, Family",
+                    "desc": "It's Halloween in Pitchfork Pines, but the neighbors don't seem to be in the mood. Can the Super Monsters save...",
+                    "image": "https://img.reelgood.com/content/movie/af9aa374-7310-4d3d-8d0a-f0ff943d2f5e/poster-92.jpg"
+                }
+            },
+            "Tallulah": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Tallulah",
+                    "year": "2016",
+                    "imdb": "IMDB: 6.7/10",
+                    "rg": "RG: 73",
+                    "length": "1h 51m",
+                    "genre": "Comedy, LGBTQ",
+                    "desc": "Desperate to be rid of her toddler, a dissatisfied Beverly Hills housewife hires a stranger to babysit and ends up...",
+                    "image": "https://img.reelgood.com/content/movie/8447d583-a7fd-46ac-a417-2b5b7c0c6a9d/poster-92.jpg"
+                }
+            },
+            "The Foreigner": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "The Foreigner",
+                    "year": "2017",
+                    "imdb": "IMDB: 7/10",
+                    "rg": "RG: 79",
+                    "length": "1h 53m",
+                    "genre": "Action & Adventure, Drama",
+                    "desc": "Quan is a humble London businessman whose long-buried past erupts in a revenge-fueled vendetta when the only person left for...",
+                    "image": "https://img.reelgood.com/content/movie/3be669cd-f88c-4086-83be-00630282cd9a/poster-780.jpg"
+                }
+            },
+            "Williams": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Williams",
+                    "year": "2017",
+                    "imdb": "IMDB: 7.6/10",
+                    "rg": "RG: 74",
+                    "length": "1h 49m",
+                    "genre": "Documentary, Biography",
+                    "desc": "This sports documentary tells the story of the Williams Formula 1 team founded by the legendary Sir Frank Williams",
+                    "image": "https://img.reelgood.com/content/movie/bebabbfe-482f-4c1b-907d-31bb5f7dfa71/poster-92.jpg"
+                }
+            },
+            "Hostiles": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Hostiles",
+                    "year": "2017",
+                    "imdb": "IMDB: 7.2/10",
+                    "rg": "RG: 78",
+                    "length": "2h 14m",
+                    "genre": "Action & Adventure, Drama",
+                    "desc": "A legendary Native American-hating Army captain nearing retirement in 1892 is given one last assignment: to escort a Cheyenne chief...",
+                    "image": "https://img.reelgood.com/content/movie/55db5250-85b4-4ba0-b1a7-a08fa41fde5e/poster-92.jpg"
+                }
+            },
+            "Anthony Jeselnik: Thoughts and Prayers": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Anthony Jeselnik: Thoughts and Prayers",
+                    "year": "2015",
+                    "imdb": "IMDB: 7.8/10",
+                    "rg": "RG: 58",
+                    "length": "59 minutes",
+                    "genre": "Comedy, Stand-up & Talk",
+                    "desc": "There's no subject too dark as the comedian skewers taboos and riffs on national tragedies before pulling back the curtain...",
+                    "image": "https://img.reelgood.com/content/movie/c04abebb-83cf-4b11-9c44-0014f480633a/poster-92.jpg"
+                }
+            },
+            "High Strung Free Dance": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "High Strung Free Dance",
+                    "year": "2018",
+                    "imdb": "IMDB: 6.7/10",
+                    "rg": "RG: 67",
+                    "length": "1h 43m",
+                    "genre": "Romance, Family",
+                    "desc": "Zander Raines, a dazzling and tempestuous young choreographer, gives the break of a lifetime to two hopeful artists when he...",
+                    "image": "https://img.reelgood.com/content/movie/346544c8-2620-4070-9bfa-8a04325ef0a8/poster-92.jpg"
+                }
+            },
+            "Kevin James: Never Don't Give Up": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Kevin James: Never Don't Give Up",
+                    "year": "2018",
+                    "imdb": "IMDB: 6.1/10",
+                    "rg": "RG: 47",
+                    "length": "1h 2m",
+                    "genre": "Comedy, Stand-up & Talk",
+                    "desc": "Kevin James makes his long-awaited return to stand-up in this family-friendly special, dishing on fatherhood, fans, his disdain for allergies...",
+                    "image": "https://img.reelgood.com/content/movie/8219c5ac-a0b9-4471-b901-830fed015f66/poster-92.jpg"
+                }
+            },
+            "Arthur": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Arthur",
+                    "year": "2011",
+                    "imdb": "IMDB: 5.7/10",
+                    "rg": "RG: 60",
+                    "length": "1h 50m",
+                    "genre": "Comedy, Romance",
+                    "desc": "A drunken playboy stands to lose a wealthy inheritance when he falls for a woman, his family doesn't like.",
+                    "image": "https://img.reelgood.com/content/movie/2c691ca0-211f-497b-8ff5-fccd727b46f1/poster-92.jpg"
+                }
+            },
+            "Backdraft 2": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Backdraft 2",
+                    "year": "2019",
+                    "imdb": "IMDB: 4.8/10",
+                    "rg": "RG: 48",
+                    "length": "1h 42m",
+                    "genre": "Action & Adventure, Crime",
+                    "desc": "Years after the original Backdraft, Sean, son of the late Steve \"Bull\" McCaffrey, is assigned to investigate a deadly fire...",
+                    "image": "https://img.reelgood.com/content/movie/06b53d52-8146-4ca3-80a5-460ae6e9998b/poster-92.jpg"
+                }
+            },
+            "Bill Hicks: Reflections": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Bill Hicks: Reflections",
+                    "year": "2015",
+                    "imdb": "IMDB: 6.8/10",
+                    "rg": "RG: 41",
+                    "length": "34 minutes",
+                    "genre": "Documentary",
+                    "desc": "Comedy Dynamics sits down with Bill Hicks brother, Steve, who tells old stories, squashes old rumors and reveals the brother...",
+                    "image": "https://img.reelgood.com/content/movie/99d396be-3c7c-48e4-aa8f-fca0b588f589/poster-780.jpg"
+                }
+            },
+            "Anelka: Misunderstood": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Anelka: Misunderstood",
+                    "year": "2020",
+                    "imdb": "IMDB: 6.4/10",
+                    "rg": "RG: 60",
+                    "length": "1h 34m",
+                    "genre": "Documentary, Biography",
+                    "desc": "Bad boy or football genius? Famed French footballer Nicolas Anelka's controversial legacy is examined in an unflinching documentary.",
+                    "image": "https://img.reelgood.com/content/movie/b40d425a-1846-4162-a6ea-04c4b32e9b20/poster-92.jpg"
+                }
+            },
+            "The Willoughbys": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Willoughbys",
+                    "year": "2020",
+                    "imdb": "IMDB: 6.4/10",
+                    "rg": "RG: 74",
+                    "length": "1h 32m",
+                    "genre": "Animation, Comedy",
+                    "desc": "When the four Willoughby children are abandoned by their selfish parents, they must learn how to adapt their Old-Fashioned values...",
+                    "image": "https://img.reelgood.com/content/movie/d634fa81-3fa7-4648-8d99-505b39aa4418/poster-92.jpg"
+                }
+            },
+            "Drink Drank Drunk": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Drink Drank Drunk",
+                    "year": "2016",
+                    "imdb": "IMDB: 4.2/10",
+                    "rg": "RG: 31",
+                    "length": "1h 33m",
+                    "genre": "Comedy",
+                    "desc": "Alan is a rich kid looking forward to a busy 24 hours: his birthday celebration tonight and attending court as...",
+                    "image": "https://img.reelgood.com/content/movie/9c669d29-1553-448a-888b-2c5102196855/poster-92.jpg"
+                }
+            },
+            "A Silent Voice": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "A Silent Voice",
+                    "year": "2016",
+                    "imdb": "IMDB: 8.1/10",
+                    "rg": "RG: 87",
+                    "length": "2h 10m",
+                    "genre": "Animation, Anime",
+                    "desc": "Shouya Ishida starts bullying the new girl in class, Shouko Nishimiya, because she is deaf. But as the teasing continues,...",
+                    "image": "https://img.reelgood.com/content/movie/d5306deb-3692-4443-a947-6457e11888b2/poster-92.jpg"
+                }
+            },
+            "When Angels Sleep": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "When Angels Sleep",
+                    "year": "2018",
+                    "imdb": "IMDB: 5.4/10",
+                    "rg": "RG: 45",
+                    "length": "1h 34m",
+                    "genre": "Drama, Thriller",
+                    "desc": "German, an honest family man, sees how his whole world wobbles the night when, driving home, accidentally runs over two...",
+                    "image": "https://img.reelgood.com/content/movie/cd1c991a-15e9-4587-91d6-2f3fd660135a/poster-92.jpg"
+                }
+            },
+            "Undefeated": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Undefeated",
+                    "year": "2011",
+                    "imdb": "IMDB: 7.7/10",
+                    "rg": "RG: 75",
+                    "length": "1h 53m",
+                    "genre": "Documentary, Sport",
+                    "desc": "Set against the backdrop of a high school football season, Dan Lindsay and T.J. Martins documentary UNDEFEATED is an intimate...",
+                    "image": "https://img.reelgood.com/content/movie/68cd7241-1c94-41de-a0a6-41704bbfd84d/poster-92.jpg"
+                }
+            },
+            "Pretville": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Pretville",
+                    "year": "2012",
+                    "imdb": "IMDB: 4.9/10",
+                    "rg": "RG: 33",
+                    "length": "1h 30m",
+                    "genre": "Musical",
+                    "desc": "\"The film is a rollicking Afrikaans musical set in the 50s. In the small, bright and vibrant town of Pretville,...",
+                    "image": "https://img.reelgood.com/content/movie/4047442f-0b89-4caf-86e2-36b275fc20f1/poster-92.jpg"
+                }
+            },
+            "The Zoya Factor": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Zoya Factor",
+                    "year": "2019",
+                    "imdb": "IMDB: 4.2/10",
+                    "rg": "RG: 50",
+                    "length": "2h 14m",
+                    "genre": "Comedy, Drama",
+                    "desc": "An advertising agency executive Zoya Singh Solanki meets the Indian cricket team and ends up becoming their lucky charm at...",
+                    "image": "https://img.reelgood.com/content/movie/9b2e87c6-03d1-4f83-b856-1578a0c7941d/poster-92.jpg"
+                }
+            },
+            "The Spiral": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Spiral",
+                    "year": "1978",
+                    "imdb": "IMDB: 6.6/10",
+                    "rg": "RG: 44",
+                    "length": "1h 23m",
+                    "genre": "Drama",
+                    "desc": "In what appears to be an inexplicable incident, a man drives up to a resort hotel in midwinter, throws away...",
+                    "image": "https://img.reelgood.com/content/movie/054e9594-dde0-4b80-9bf4-36183ab7be5d/poster-780.jpg"
+                }
+            },
+            "Patton Oswalt: Annihilation": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Patton Oswalt: Annihilation",
+                    "year": "2017",
+                    "imdb": "IMDB: 7.2/10",
+                    "rg": "RG: 70",
+                    "length": "1h 6m",
+                    "genre": "Comedy, Stand-up & Talk",
+                    "desc": "Patton Oswalt, despite a personal tragedy, produces his best standup yet. Focusing on the tribulations of the Trump era and...",
+                    "image": "https://img.reelgood.com/content/movie/083dfaa2-6e38-4561-b734-6f6038ea35ba/poster-92.jpg"
+                }
+            },
+            "The Amazing Praybeyt Benjamin": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Amazing Praybeyt Benjamin",
+                    "year": "2014",
+                    "imdb": "IMDB: 4.1/10",
+                    "rg": "RG: 44",
+                    "length": "1h 45m",
+                    "genre": "Action & Adventure, Comedy",
+                    "desc": "A soldier who once saved the entire country is assigned to guard a genius child whose intellect is needed to...",
+                    "image": "https://img.reelgood.com/content/movie/97f14168-83cb-4848-9399-6faac3fe811e/poster-92.jpg"
+                }
+            },
+            "Baahubali 2: The Conclusion": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Baahubali 2: The Conclusion",
+                    "year": "2017",
+                    "imdb": "IMDB: 8.2/10",
+                    "rg": "RG: 82",
+                    "length": "2h 48m",
+                    "genre": "Action & Adventure, Drama",
+                    "desc": "When Mahendra, the son of Bahubali, learns about his heritage, he begins to look for answers. His story is juxtaposed...",
+                    "image": "https://img.reelgood.com/content/movie/7194e618-3729-429c-a2fa-a4c7b45415ab/poster-92.jpg"
+                }
+            },
+            "Lavender": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Lavender",
+                    "year": "2016",
+                    "imdb": "IMDB: 5.4/10",
+                    "rg": "RG: 54",
+                    "length": "1h 32m",
+                    "genre": "Drama, Thriller",
+                    "desc": "A photographer struggling with memory loss discovers her pictures may indicate something sinister is hitting close to home.",
+                    "image": "https://img.reelgood.com/content/movie/ade20024-bfe1-4b74-ab79-7d82dc58f5dd/poster-92.jpg"
+                }
+            },
+            "A Go! Go! Cory Carson Summer Camp": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "A Go! Go! Cory Carson Summer Camp",
+                    "year": "2020",
+                    "imdb": "IMDB: 5.1/10",
+                    "rg": "RG: 37",
+                    "length": "20 minutes",
+                    "genre": "Animation, Family",
+                    "desc": "Cory's spending the summer at Camp Friendship with his best friend, Freddie. But jealousy flares when Freddie brings his cousin...",
+                    "image": "https://img.reelgood.com/content/movie/ab0f02cb-67d3-4981-ac95-c1ffa930d216/poster-92.jpg"
+                }
+            },
+            "Memory Games": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Memory Games",
+                    "year": "2019",
+                    "imdb": "IMDB: 6.7/10",
+                    "rg": "RG: 44",
+                    "length": "1h 25m",
+                    "genre": "Documentary",
+                    "desc": "Without memory we are nothing. Memory makes us human. Its who we are. Memory Games offers a thrilling insight into...",
+                    "image": "https://img.reelgood.com/content/movie/f708f604-5c22-41fd-8f3a-c10b94dd0b80/poster-92.jpg"
+                }
+            },
+            "Fireworks, Should We See it from the Side or the Bottom?": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Fireworks, Should We See it from the Side or the Bottom?",
+                    "year": "2017",
+                    "imdb": "IMDB: 5.5/10",
+                    "rg": "RG: 58",
+                    "length": "1h 30m",
+                    "genre": "Animation, Anime",
+                    "desc": "One summer day, a group of sixth-grade boys have an argument about whether fireworks are round or flat when viewed...",
+                    "image": "https://img.reelgood.com/content/movie/377131ed-c237-4e31-a2fc-a4fb422e442e/poster-92.jpg"
+                }
+            },
+            "Undercover Grandpa": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Undercover Grandpa",
+                    "year": "2017",
+                    "imdb": "IMDB: 5.2/10",
+                    "rg": "RG: 42",
+                    "length": "1h 39m",
+                    "genre": "Action & Adventure, Comedy",
+                    "desc": "When the girl he likes goes missing, Jake enlists the help of his grandpa and his WWII buddies.",
+                    "image": "https://img.reelgood.com/content/movie/1554a531-fe52-4a49-b683-b47368a03cd9/poster-92.jpg"
+                }
+            },
+            "Chalay Thay Saath": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Chalay Thay Saath",
+                    "year": "2017",
+                    "imdb": "IMDB: 6.7/10",
+                    "rg": "RG: 48",
+                    "length": "2h 0m",
+                    "genre": "Comedy, Romance",
+                    "desc": "An adventurous doctor meets a handsome Chinese backpacker while travelling with friends on a journey of self-discovery.",
+                    "image": "https://img.reelgood.com/content/movie/86204d48-1c53-4737-8222-2092d1e3536a/poster-92.jpg"
+                }
+            },
+            "The Birth Reborn 2": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Birth Reborn 2",
+                    "year": "2018",
+                    "imdb": "RG: 38",
+                    "rg": "1h 31m",
+                    "length": "Documentary",
+                    "genre": "A study on the alarming number of c-sections and deliveries with traumatic interventions currently practiced. The experts tell their experiences,...",
+                    "image": "https://img.reelgood.com/content/movie/6ae679e2-961b-4d5a-8aa9-d0b4f9f306d2/poster-780.jpg"
+                }
+            },
+            "Swimming Pool": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Swimming Pool",
+                    "year": "2003",
+                    "imdb": "IMDB: 6.7/10",
+                    "rg": "RG: 74",
+                    "length": "1h 42m",
+                    "genre": "Drama, Thriller",
+                    "desc": "In the middle of this amusing thriller is a relationship between two different types of females, one is a well...",
+                    "image": "https://img.reelgood.com/content/movie/7e893d08-b748-417a-a16f-e82278eae726/poster-92.jpg"
+                }
+            },
+            "We Wish You a Metal Christmas": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "We Wish You a Metal Christmas",
+                    "year": "2018",
+                    "imdb": "IMDB: 7.5/10",
+                    "rg": "RG: 45",
+                    "length": "22 minutes",
+                    "genre": "Animation, Anime",
+                    "desc": "Retsuko's newfound obsession with posting pics on her social media account threatens to ruin her Christmas, while Haida still hopes...",
+                    "image": "https://img.reelgood.com/content/movie/07322471-d50a-46ca-8056-eabeaa876a3f/poster-92.jpg"
+                }
+            },
+            "The Kindergarten Teacher": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Kindergarten Teacher",
+                    "year": "2018",
+                    "imdb": "IMDB: 6.7/10",
+                    "rg": "RG: 73",
+                    "length": "1h 36m",
+                    "genre": "Drama",
+                    "desc": "Lisa Spinelli is a Staten Island teacher who is unusually devoted to her students. When she discovers one of her...",
+                    "image": "https://img.reelgood.com/content/movie/9c6fcc17-7e3d-49c9-9cc6-d8c2a34a6291/poster-92.jpg"
+                }
+            },
+            "Before I Wake": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Before I Wake",
+                    "year": "2016",
+                    "imdb": "IMDB: 6.2/10",
+                    "rg": "RG: 69",
+                    "length": "1h 37m",
+                    "genre": "Drama, Fantasy",
+                    "desc": "An orphaned child's dreamsand nightmaresmanifest physically as he sleeps.",
+                    "image": "https://img.reelgood.com/content/movie/fe0e3586-7a4a-4924-87f3-657db80b3026/poster-92.jpg"
+                }
+            },
+            "The Social Dilemma": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Social Dilemma",
+                    "year": "2020",
+                    "imdb": "IMDB: 8/10",
+                    "rg": "RG: 84",
+                    "length": "1h 34m",
+                    "genre": "Documentary, Drama",
+                    "desc": "This documentary-drama hybrid explores the dangerous human impact of social networking, with tech experts sounding the alarm on their own...",
+                    "image": "https://img.reelgood.com/content/movie/f4221ac9-b710-4ae9-974b-88228c4827ed/poster-780.jpg"
+                }
+            },
+            "Ip Man 4: The Finale": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Ip Man 4: The Finale",
+                    "year": "2019",
+                    "imdb": "IMDB: 7.1/10",
+                    "rg": "RG: 83",
+                    "length": "1h 45m",
+                    "genre": "Action & Adventure, Drama",
+                    "desc": "Following the death of his wife, Ip Man travels to San Francisco to ease tensions between the local kung fu...",
+                    "image": "https://img.reelgood.com/content/movie/4e45c9f9-49b9-4e87-a0e2-04afb708c747/poster-92.jpg"
+                }
+            },
+            "Chronically Metropolitan": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Chronically Metropolitan",
+                    "year": "2016",
+                    "imdb": "IMDB: 5.1/10",
+                    "rg": "RG: 46",
+                    "length": "1h 30m",
+                    "genre": "Comedy, Drama",
+                    "desc": "A cynical and clever coming of age film about first time novelist Fenton Dillane, who, unannounced returns to New York...",
+                    "image": "https://img.reelgood.com/content/movie/2e601db7-f3ec-451d-8c6b-770f1fabb1ed/poster-92.jpg"
+                }
+            },
+            "Burning Sands": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Burning Sands",
+                    "year": "2017",
+                    "imdb": "IMDB: 6/10",
+                    "rg": "RG: 63",
+                    "length": "1h 45m",
+                    "genre": "Drama",
+                    "desc": "Deep into Hell Week, a favored pledgee is torn between honoring his code of silence or standing up against the...",
+                    "image": "https://img.reelgood.com/content/movie/85eed10a-3e29-4262-8def-e410328d59c5/poster-780.jpg"
+                }
+            },
+            "Flying Guillotine II": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Flying Guillotine II",
+                    "year": "1978",
+                    "imdb": "IMDB: 6.3/10",
+                    "rg": "RG: 43",
+                    "length": "1h 28m",
+                    "genre": "Action & Adventure",
+                    "desc": "The emperor's reign of terror expands. Heroic outlaw Ma Teng joins a squad of female rebels, whose leader is torn...",
+                    "image": "https://img.reelgood.com/content/movie/e0dd565d-434d-408c-a07b-1ee033fd26ac/poster-92.jpg"
+                }
+            },
+            "Beyond Skyline": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Beyond Skyline",
+                    "year": "2017",
+                    "imdb": "IMDB: 5.3/10",
+                    "rg": "RG: 64",
+                    "length": "1h 45m",
+                    "genre": "Action & Adventure, Horror",
+                    "desc": "Detective Mark Corley storms his way onto an alien spaceship to rescue his estranged son. When the ship crashes in...",
+                    "image": "https://img.reelgood.com/content/movie/fee83e78-db1b-47e3-8fe1-ea7020a36783/poster-780.jpg"
+                }
+            },
+            "Y Tu Mama Tambien": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Y Tu Mama Tambien",
+                    "year": "2001",
+                    "imdb": "IMDB: 7.6/10",
+                    "rg": "RG: 86",
+                    "length": "1h 46m",
+                    "genre": "Action & Adventure, LGBTQ",
+                    "desc": "In Mexico, two teenage boys and an attractive older woman embark on a road trip and learn a thing or...",
+                    "image": "https://img.reelgood.com/content/movie/2d7c2787-7dfd-455c-becc-d8cca48cad63/poster-780.jpg"
+                }
+            },
+            "Berlin Berlin": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Berlin Berlin",
+                    "year": "2020",
+                    "imdb": "IMDB: 3.6/10",
+                    "rg": "RG: 44",
+                    "length": "1h 20m",
+                    "genre": "Comedy, Drama",
+                    "desc": "Lolle's love life in Berlin is as complicated as ever. After the story with Sven, her second cousin, was over,...",
+                    "image": "https://img.reelgood.com/content/movie/151da0ac-e1af-4136-b8ad-683660fcf4a6/poster-780.jpg"
+                }
+            },
+            "G.O.R.A.": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "G.O.R.A.",
+                    "year": "2004",
+                    "imdb": "IMDB: 8/10",
+                    "rg": "RG: 69",
+                    "length": "2h 7m",
+                    "genre": "Action & Adventure, Comedy",
+                    "desc": "A slick young Turk kidnapped by extraterrestrials shows his great  humanitarian spirit  by outwitting the evil commander-in-chief of...",
+                    "image": "https://img.reelgood.com/content/movie/5a4e7cc0-ae94-4c9e-af0c-a21a080346a1/poster-780.jpg"
+                }
+            },
+            "Mythily Veendum Varunnu...": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Mythily Veendum Varunnu...",
+                    "year": "2017",
+                    "imdb": "IMDB: 2.2/10",
+                    "rg": "RG: 34",
+                    "length": "1h 34m",
+                    "genre": "Horror",
+                    "desc": "After losing her father, a girl takes up the responsibility of her mother. She then moves to the city in...",
+                    "image": "https://img.reelgood.com/content/movie/d181f671-b545-46c4-93b2-e5b66af53a5c/poster-92.jpg"
+                }
+            },
+            "Offering to the Storm": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Offering to the Storm",
+                    "year": "2020",
+                    "imdb": "IMDB: 6.2/10",
+                    "rg": "RG: 65",
+                    "length": "2h 19m",
+                    "genre": "Crime, Thriller",
+                    "desc": "Inspector Amaia Salazar confronts the origins of her nightmares as she unfolds the darkest secrets of the Baztan valley. Part...",
+                    "image": "https://img.reelgood.com/content/movie/be0fde9d-661d-4202-a0d8-4204390ef16a/poster-780.jpg"
+                }
+            },
+            "Chupan Chupai": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Chupan Chupai",
+                    "year": "2018",
+                    "imdb": "IMDB: 5.8/10",
+                    "rg": "RG: 43",
+                    "length": "1h 58m",
+                    "genre": "Comedy, Crime",
+                    "desc": "Inept kidnappers need both luck and logic to stay one step ahead of the determined cop who is hot on...",
+                    "image": "https://img.reelgood.com/content/movie/f1cfa4ab-607d-482e-a5c0-a941cbe91bc7/poster-780.jpg"
+                }
+            },
+            "Love for Sale": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Love for Sale",
+                    "year": "2018",
+                    "imdb": "IMDB: 7.4/10",
+                    "rg": "RG: 52",
+                    "length": "1h 44m",
+                    "genre": "Drama, Romance",
+                    "desc": "Richard accepts a bet that he can't find a companion to a friend's wedding, not knowing the dating app he's...",
+                    "image": "https://img.reelgood.com/content/movie/06510d4f-1937-4036-85e4-bed6d32f4a5c/poster-780.jpg"
+                }
+            },
+            "A Girl Like Grace": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "A Girl Like Grace",
+                    "year": "2015",
+                    "imdb": "IMDB: 5.9/10",
+                    "rg": "RG: 47",
+                    "length": "1h 33m",
+                    "genre": "Drama",
+                    "desc": "Raised by a single mother, a bullied 17 year-old girl seeks guidance from her best friend and the girl's older...",
+                    "image": "https://img.reelgood.com/content/movie/327c4f6f-72a0-428e-9ec3-53aaacbe2c32/poster-92.jpg"
+                }
+            },
+            "Felipe Esparza: Bad Decisions": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Felipe Esparza: Bad Decisions",
+                    "year": "2020",
+                    "imdb": "IMDB: 5.2/10",
+                    "rg": "RG: 45",
+                    "length": "Comedy",
+                    "genre": "Stand-up comedian, actor and \"Last Comic Standing\" winner Felipe Esparza digs deeper into his past in his first Netflix Original...",
+                    "image": "https://img.reelgood.com/content/movie/5cd9e6bb-3867-4677-8581-8ac338615065/poster-92.jpg"
+                }
+            },
+            "Out of Many, One": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Out of Many, One",
+                    "year": "2018",
+                    "imdb": "IMDB: 5.4/10",
+                    "rg": "RG: 39",
+                    "length": "35 minutes",
+                    "genre": "Documentary",
+                    "desc": "The U.S. has long offered a promise of opportunity to immigrants, but currently immigration has become a divisive issue. This...",
+                    "image": "https://img.reelgood.com/content/movie/7049f72f-fa34-4914-ac80-d702b9a92b9d/poster-92.jpg"
+                }
+            },
+            "The Doll 2": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Doll 2",
+                    "year": "2017",
+                    "imdb": "IMDB: 5.3/10",
+                    "rg": "RG: 45",
+                    "length": "1h 56m",
+                    "genre": "Horror, Thriller",
+                    "desc": "A couple who devastated after losing their only child resort into obsessive act that can dangerously threatening their own life.",
+                    "image": ""
+                }
+            },
+            "The Island": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Island",
+                    "year": "2018",
+                    "imdb": "IMDB: 6.2/10",
+                    "rg": "RG: 55",
+                    "length": "2h 14m",
+                    "genre": "Comedy, Drama",
+                    "desc": "A cataclysmic event causes a man, who dreams of winning the lottery, to become stranded on an island with his...",
+                    "image": "https://img.reelgood.com/content/movie/cdeddd17-174f-45c3-b10b-8a6ce4f1fb12/poster-780.jpg"
+                }
+            },
+            "Get Me Roger Stone": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Get Me Roger Stone",
+                    "year": "2017",
+                    "imdb": "IMDB: 7.4/10",
+                    "rg": "RG: 73",
+                    "length": "1h 40m",
+                    "genre": "Documentary, Biography",
+                    "desc": "From his days of testifying at the Watergate hearings to advising recent presidential candidate Donald Trump, Roger Stone has long...",
+                    "image": "https://img.reelgood.com/content/movie/f60b3b33-a946-4aa6-b899-f12c30081b4c/poster-780.jpg"
+                }
+            },
+            "Mute": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Mute",
+                    "year": "2018",
+                    "imdb": "IMDB: 5.4/10",
+                    "rg": "RG: 59",
+                    "length": "2h 6m",
+                    "genre": "Drama, Mystery",
+                    "desc": "A mute man with a violent past is forced to take on the teeming underworld of a near-future Berlin as...",
+                    "image": "https://img.reelgood.com/content/movie/35f958a7-1f42-4c5c-a416-dd14496f8798/poster-780.jpg"
+                }
+            },
+            "Tim Minchin and the Heritage Orchestra: Live at the Royal Albert Hall": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Tim Minchin and the Heritage Orchestra: Live at the Royal Albert Hall",
+                    "year": "2011",
+                    "imdb": "IMDB: 8.5/10",
+                    "rg": "RG: 52",
+                    "length": "2h 26m",
+                    "genre": "Comedy",
+                    "desc": "Tim Minchin has fast become not just one of the biggest names in Australian comedy but also close to the...",
+                    "image": "https://img.reelgood.com/content/movie/cb92b5db-dd8d-4c5b-92f2-8f0ab6bf7816/poster-780.jpg"
+                }
+            },
+            "Hazaaron Khwaishein Aisi": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Hazaaron Khwaishein Aisi",
+                    "year": "2003",
+                    "imdb": "IMDB: 7.9/10",
+                    "rg": "RG: 58",
+                    "length": "2h 0m",
+                    "genre": "Drama",
+                    "desc": "Set against the backdrop of the Indian Emergency, the movie tells the story of three youngsters in the 70s, when...",
+                    "image": "https://img.reelgood.com/content/movie/b54d1022-9108-406c-b7a1-208a2a1813d3/poster-780.jpg"
+                }
+            },
+            "Setup": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Setup",
+                    "year": "2011",
+                    "imdb": "IMDB: 4.4/10",
+                    "rg": "RG: 43",
+                    "length": "1h 25m",
+                    "genre": "Action & Adventure, Crime",
+                    "desc": "A group of friends plan out a detailed heist that turns deadly when one betrays the other by taking off...",
+                    "image": "https://img.reelgood.com/content/movie/34e6b217-1c86-43fe-968f-4865877baad6/poster-780.jpg"
+                }
+            },
+            "The Lincoln Lawyer": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "The Lincoln Lawyer",
+                    "year": "2011",
+                    "imdb": "IMDB: 7.3/10",
+                    "rg": "RG: 84",
+                    "length": "1h 59m",
+                    "genre": "Crime, Drama",
+                    "desc": "A lawyer conducts business from the back of his Lincoln town car while representing a high-profile client in Beverly Hills.",
+                    "image": "https://img.reelgood.com/content/movie/5cc2a9cc-d512-4aad-8d57-d084f7b7c582/poster-780.jpg"
+                }
+            },
+            "October 1": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "October 1",
+                    "year": "2014",
+                    "imdb": "IMDB: 6.6/10",
+                    "rg": "RG: 44",
+                    "length": "2h 29m",
+                    "genre": "Thriller",
+                    "desc": "Its September 1960, and with Nigeria on the verge of independence from British colonial rule, a northern Nigerian Police Detective,...",
+                    "image": "https://img.reelgood.com/content/movie/9dd4e7dd-f511-4aba-9a8e-08f516256ed4/poster-780.jpg"
+                }
+            },
+            "Clarence Clemons: Who Do I Think I Am?": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Clarence Clemons: Who Do I Think I Am?",
+                    "year": "2019",
+                    "imdb": "IMDB: 6.3/10",
+                    "rg": "RG: 31",
+                    "length": "1h 28m",
+                    "genre": "Documentary",
+                    "desc": "A documentary about the life of E Street Band member Clarence Clemons",
+                    "image": "https://img.reelgood.com/content/movie/41bed9cb-a311-46dc-bd19-56c943368d35/poster-780.jpg"
+                }
+            },
+            "From Paris with Love": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "From Paris with Love",
+                    "year": "2010",
+                    "imdb": "IMDB: 6.5/10",
+                    "rg": "RG: 69",
+                    "length": "1h 32m",
+                    "genre": "Action & Adventure, Thriller",
+                    "desc": "James Reese has a good job as an ambassador's aid in France, but his real passion is a side gigworking...",
+                    "image": "https://img.reelgood.com/content/movie/7f1194ad-b765-42f7-8809-a146f76a29bb/poster-780.jpg"
+                }
+            },
+            "Hickok": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Hickok",
+                    "year": "2017",
+                    "imdb": "IMDB: 4.7/10",
+                    "rg": "RG: 52",
+                    "length": "1h 28m",
+                    "genre": "Documentary",
+                    "desc": "Legendary Lawman and Gunslinger Wild Bill Hickok, is tasked with taming the wildest cow-town in the West, while delivering his...",
+                    "image": "https://img.reelgood.com/content/movie/5eae19f0-4e50-465b-96e7-e103f253b60d/poster-780.jpg"
+                }
+            },
+            "No Longer kids": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "No Longer kids",
+                    "year": "1979",
+                    "imdb": "IMDB: 9/10",
+                    "rg": "RG: 59",
+                    "length": "3h 55m",
+                    "genre": "Comedy, Drama",
+                    "desc": "By coincidence, Ahmad discovers that his father, Ramada Al Sokkary has a love letter in his suit case, which reveals...",
+                    "image": "https://img.reelgood.com/content/movie/f284688b-3ff5-42e0-a849-d79f33538b89/poster-780.jpg"
+                }
+            },
+            "The Perfect Date": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Perfect Date",
+                    "year": "2019",
+                    "imdb": "IMDB: 5.8/10",
+                    "rg": "RG: 66",
+                    "length": "1h 33m",
+                    "genre": "Romance, Comedy",
+                    "desc": "No beau? No problem! To earn money for college, a high schooler creates a dating app that lets him act...",
+                    "image": "https://img.reelgood.com/content/movie/99bbe028-0d39-4d99-936f-5828cac69654/poster-780.jpg"
+                }
+            },
+            "Oye Lucky! Lucky Oye!": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Oye Lucky! Lucky Oye!",
+                    "year": "2008",
+                    "imdb": "IMDB: 7.7/10",
+                    "rg": "RG: 57",
+                    "length": "2h 6m",
+                    "genre": "Comedy, Crime",
+                    "desc": "Lovinder Singh, a thief now in custody and facing trial, reflects on his life of crime while the press reflect...",
+                    "image": "https://img.reelgood.com/content/movie/b8bcb7cc-e297-4b9e-9e84-cc01eca84abc/poster-780.jpg"
+                }
+            },
+            "The Darkest Dawn": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Darkest Dawn",
+                    "year": "2016",
+                    "imdb": "IMDB: 4.1/10",
+                    "rg": "RG: 46",
+                    "length": "1h 16m",
+                    "genre": "Science-Fiction",
+                    "desc": "Evacuated from their home, two teenage sisters unite with fellow survivors and escape London by river to embark on an...",
+                    "image": "https://img.reelgood.com/content/movie/dccdfa7e-f510-4b66-86d3-31a37d8a2db2/poster-780.jpg"
+                }
+            },
+            "Gaga: Five Foot Two": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Gaga: Five Foot Two",
+                    "year": "2017",
+                    "imdb": "IMDB: 7/10",
+                    "rg": "RG: 72",
+                    "length": "1h 40m",
+                    "genre": "Documentary, Biography",
+                    "desc": "Go behind the scenes with pop provocateur Lady Gaga as she releases a bold new album and prepares for her...",
+                    "image": "https://img.reelgood.com/content/movie/ba9487d1-9cc2-4a9c-b729-001adc76223f/poster-780.jpg"
+                }
+            },
+            "Hasee Toh Phasee": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Hasee Toh Phasee",
+                    "year": "2014",
+                    "imdb": "IMDB: 6.8/10",
+                    "rg": "RG: 69",
+                    "length": "2h 21m",
+                    "genre": "Comedy, Romance",
+                    "desc": "On the eve of Nikhil and Karishmas engagement, Karishmas wealthy father, Devesh Solanki, expresses his disapproval, believing Nikhil to be...",
+                    "image": "https://img.reelgood.com/content/movie/82aee52a-6022-408c-aea4-53c2351f020b/poster-780.jpg"
+                }
+            },
+            "The Artist": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Artist",
+                    "year": "2011",
+                    "imdb": "IMDB: 7.9/10",
+                    "rg": "RG: 87",
+                    "length": "1h 40m",
+                    "genre": "Comedy, Drama",
+                    "desc": "Hollywood, 1927: As silent movie star George Valentin wonders if the arrival of talking pictures will cause him to fade...",
+                    "image": "https://img.reelgood.com/content/movie/1101375e-2db3-4284-ac02-03bd9608ec26/poster-780.jpg"
+                }
+            },
+            "Tiffany Haddish: Black Mitzvah": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Tiffany Haddish: Black Mitzvah",
+                    "year": "2019",
+                    "imdb": "IMDB: 6.1/10",
+                    "rg": "RG: 48",
+                    "length": "55 minutes",
+                    "genre": "Comedy, Stand-up & Talk",
+                    "desc": "On her 40th birthday, Tiffany Haddish drops a bombastic special studded with singing, dancing and raunchy reflections on her long...",
+                    "image": "https://img.reelgood.com/content/movie/d846eee8-d2d2-4333-a0e4-0be48b223dae/poster-780.jpg"
+                }
+            },
+            "Tere Naal Love Ho Gaya": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Tere Naal Love Ho Gaya",
+                    "year": "2012",
+                    "imdb": "IMDB: 5.8/10",
+                    "rg": "RG: 45",
+                    "length": "2h 6m",
+                    "genre": "Comedy, Romance",
+                    "desc": "In a quaint village of Haryana lives Miny, a free-spirited tomboy who instantly wins your heart with her bubbly personality....",
+                    "image": "https://img.reelgood.com/content/movie/c86219f2-096e-4fbe-ae19-7b25af26d259/poster-780.jpg"
+                }
+            },
+            "Reggie Watts: Spatial": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Reggie Watts: Spatial",
+                    "year": "2016",
+                    "imdb": "IMDB: 6.1/10",
+                    "rg": "RG: 43",
+                    "length": "1h 1m",
+                    "genre": "Comedy, Stand-up & Talk",
+                    "desc": "The comic innovator delivers a surreal set blending experimental songs, jokes about grits, guns and drugs, and other improvised comedy...",
+                    "image": "https://img.reelgood.com/content/movie/533275b0-2d45-41f0-b895-cf75a3283d15/poster-780.jpg"
+                }
+            },
+            "Bob's Broken Sleigh": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Bob's Broken Sleigh",
+                    "year": "2015",
+                    "imdb": "IMDB: 4.7/10",
+                    "rg": "RG: 39",
+                    "length": "46 minutes",
+                    "genre": "Animation",
+                    "desc": "This Christmas movie a young magic-less elf named Bob, who finds himself on a wild sleigh ride after being ambushed...",
+                    "image": "https://img.reelgood.com/content/movie/b782ecd2-d443-45b0-a985-78b7e02bf70c/poster-780.jpg"
+                }
+            },
+            "Total Recall": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Total Recall",
+                    "year": "1990",
+                    "imdb": "IMDB: 7.5/10",
+                    "rg": "RG: 86",
+                    "length": "1h 53m",
+                    "genre": "Action & Adventure, Science-Fiction",
+                    "desc": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his...",
+                    "image": "https://img.reelgood.com/content/movie/749bf67d-1912-4ccc-acfc-45434f21f371/poster-780.jpg"
+                }
+            },
+            "Eza'et Hobb": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Eza'et Hobb",
+                    "year": "2011",
+                    "imdb": "IMDB: 5.5/10",
+                    "rg": "RG: 39",
+                    "length": "1h 37m",
+                    "genre": "Comedy, Romance",
+                    "desc": "Single coworkers at a radio station are brought together by mutual friends, but their starry-eyed notions about love may scuttle...",
+                    "image": "https://img.reelgood.com/content/movie/51df7577-9ec6-4df4-b660-450b6fc60fb4/poster-780.jpg"
+                }
+            },
+            "Wedding Association 2: Circumcision": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Wedding Association 2: Circumcision",
+                    "year": "2015",
+                    "imdb": "IMDB: 6.4/10",
+                    "rg": "RG: 50",
+                    "length": "1h 47m",
+                    "genre": "Comedy",
+                    "desc": "Ismail and his old screwball crew land themselves in hot water when his grandson's circumcision evolves into a buzz-making citywide...",
+                    "image": "https://img.reelgood.com/content/movie/ac89ccf5-7330-452f-9cb0-124fe138710b/poster-780.jpg"
+                }
+            },
+            "22 July": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "22 July",
+                    "year": "2018",
+                    "imdb": "IMDB: 6.8/10",
+                    "rg": "RG: 75",
+                    "length": "2h 23m",
+                    "genre": "Drama, History",
+                    "desc": "In Norway on 22 July 2011, right-wing terrorist Anders Behring Breivik murdered 77 young people attending a Labour Party Youth...",
+                    "image": "https://img.reelgood.com/content/movie/bc7a959a-4e01-428b-a34f-474a1db5aa4c/poster-780.jpg"
+                }
+            },
+            "The Tribe": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Tribe",
+                    "year": "2016",
+                    "imdb": "IMDB: 4.5/10",
+                    "rg": "RG: 42",
+                    "length": "1h 37m",
+                    "genre": "Drama, Science-Fiction",
+                    "desc": "A family of three young sisters live out their days after a pandemic has consumed most of the known world....",
+                    "image": "https://img.reelgood.com/content/movie/2e84b1b4-6ef7-4feb-9bde-52fb405de5b5/poster-780.jpg"
+                }
+            },
+            "Abducted in Plain Sight": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Abducted in Plain Sight",
+                    "year": "2018",
+                    "imdb": "IMDB: 6.8/10",
+                    "rg": "RG: 70",
+                    "length": "1h 31m",
+                    "genre": "Documentary, Crime",
+                    "desc": "In 1974, 12-year-old Jan Broberg is abducted from a small church-going community in Idaho by a trusted neighbour and close...",
+                    "image": "https://img.reelgood.com/content/movie/78dc7c2d-cecf-46f3-becf-73147728e241/poster-780.jpg"
+                }
+            },
+            "Naan Sigappu Manithan": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Naan Sigappu Manithan",
+                    "year": "2014",
+                    "imdb": "IMDB: 6.5/10",
+                    "rg": "RG: 46",
+                    "length": "2h 41m",
+                    "genre": "Action & Adventure, Drama",
+                    "desc": "Indran suffers from narcolepsy, a sleep disorder that makes him fall asleep at the slightest excitement. He meets Meera and...",
+                    "image": "https://img.reelgood.com/content/movie/bdff22a2-04b0-4465-94af-4d79b3f186df/poster-780.jpg"
+                }
+            },
+            "Dean": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Dean",
+                    "year": "2016",
+                    "imdb": "IMDB: 6.2/10",
+                    "rg": "RG: 60",
+                    "length": "1h 27m",
+                    "genre": "Comedy, Drama",
+                    "desc": "A freelance illustrator in New York suffers a quarter-life crisis and leaves his home for the west coast.",
+                    "image": "https://img.reelgood.com/content/movie/8ded1b82-f752-474d-a61a-fd583c963096/poster-780.jpg"
+                }
+            },
+            "One Day": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "One Day",
+                    "year": "2016",
+                    "imdb": "IMDB: 7.7/10",
+                    "rg": "RG: 53",
+                    "length": "2h 14m",
+                    "genre": "Drama, Romance",
+                    "desc": "Denchai is a geeky 30-year-old IT officer whose existence is only acknowledged when his colleagues need tech support. Denchai's mundane...",
+                    "image": "https://img.reelgood.com/content/movie/5bbff535-1109-41ff-8abd-c739818a0e10/poster-780.jpg"
+                }
+            },
+            "Paddleton": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Paddleton",
+                    "year": "2019",
+                    "imdb": "IMDB: 7.2/10",
+                    "rg": "RG: 75",
+                    "length": "1h 29m",
+                    "genre": "Drama, Comedy",
+                    "desc": "An unlikely friendship between two misfit neighbors becomes an unexpectedly emotional journey when the younger man is diagnosed with terminal...",
+                    "image": "https://img.reelgood.com/content/movie/8ff90e9e-8c44-4234-a59d-c7a5bb9654a5/poster-780.jpg"
+                }
+            },
+            "5 Flights Up": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "5 Flights Up",
+                    "year": "2014",
+                    "imdb": "IMDB: 6.2/10",
+                    "rg": "RG: 60",
+                    "length": "1h 32m",
+                    "genre": "Drama, Comedy",
+                    "desc": "A long-time married couple who've spent their lives together in the same New York apartment become overwhelmed by personal and...",
+                    "image": "https://img.reelgood.com/content/movie/d8ac58aa-0e99-4701-a6ee-fc8fd45e486b/poster-780.jpg"
+                }
+            },
+            "Film Kteer Kbeer": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Film Kteer Kbeer",
+                    "year": "2015",
+                    "imdb": "IMDB: 7.2/10",
+                    "rg": "RG: 48",
+                    "length": "1h 47m",
+                    "genre": "Comedy, Action & Adventure",
+                    "desc": "A dark comedy about brothers running a drug-dealing business out of their takeout pizzeria.",
+                    "image": "https://img.reelgood.com/content/movie/8cdcc409-1961-4956-b6b0-9d0cdcf66745/poster-780.jpg"
+                }
+            },
+            "Late Life: The Chien-Ming Wang Story": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Late Life: The Chien-Ming Wang Story",
+                    "year": "2018",
+                    "imdb": "IMDB: 7.2/10",
+                    "rg": "RG: 47",
+                    "length": "1h 37m",
+                    "genre": "Documentary, Sport",
+                    "desc": "The first and only Taiwanese player for the New York Yankees, Chien-Ming Wang held many titles: American League Wins Leader,...",
+                    "image": "https://img.reelgood.com/content/movie/9b74a61a-6bbe-4f6d-8fe7-2d0e7b501eda/poster-780.jpg"
+                }
+            },
+            "Ajji": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Ajji",
+                    "year": "2017",
+                    "imdb": "IMDB: 6.9/10",
+                    "rg": "RG: 57",
+                    "length": "1h 44m",
+                    "genre": "Thriller, Crime",
+                    "desc": "After her 10-year-old granddaughter Manda is brutally raped by a serial sex offender, the young girl's Ajji sets out to...",
+                    "image": "https://img.reelgood.com/content/movie/ba1c5601-5b34-4b14-aa87-b9a474db380a/poster-780.jpg"
+                }
+            },
+            "Sturgill Simpson Presents Sound & Fury": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Sturgill Simpson Presents Sound & Fury",
+                    "year": "2019",
+                    "imdb": "IMDB: 6.4/10",
+                    "rg": "RG: 49",
+                    "length": "41 minutes",
+                    "genre": "Animation",
+                    "desc": "In this anime visual album, a mysterious driver heads deep into a postapocalyptic hellscape toward a ferocious showdown with two...",
+                    "image": "https://img.reelgood.com/content/movie/add1f3cd-6164-461c-9586-6d5c17dee095/poster-780.jpg"
+                }
+            },
+            "Shorts": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Shorts",
+                    "year": "2009",
+                    "imdb": "IMDB: 4.7/10",
+                    "rg": "RG: 53",
+                    "length": "1h 29m",
+                    "genre": "Action & Adventure, Comedy",
+                    "desc": "A young boy's discovery of a colorful, wish-granting rock causes chaos in the suburban town of Black Falls when jealous...",
+                    "image": "https://img.reelgood.com/content/movie/18a29b3c-c3e1-4279-9fed-345fe4e4f7cd/poster-780.jpg"
+                }
+            },
+            "Darna Mana Hai": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Darna Mana Hai",
+                    "year": "2003",
+                    "imdb": "IMDB: 6.3/10",
+                    "rg": "RG: 48",
+                    "length": "2h 1m",
+                    "genre": "Horror, Action & Adventure",
+                    "desc": "Stranded in an abandoned building, six friends relate scary stories while a crazed killer lurks in the forest.",
+                    "image": "https://img.reelgood.com/content/movie/929d6bb8-599d-4738-9a43-537b80d7e7a1/poster-780.jpg"
+                }
+            },
+            "Just Another Love Story": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Just Another Love Story",
+                    "year": "2007",
+                    "imdb": "IMDB: 7.2/10",
+                    "rg": "RG: 69",
+                    "length": "1h 40m",
+                    "genre": "Crime, Drama",
+                    "desc": "Jonas is a Copenhagen homicide scene photographer, happily married, with two kids. One day, his car stalls, another car slams...",
+                    "image": "https://img.reelgood.com/content/movie/3a2f4c02-b33e-4ef9-8585-caaab3cbfe0e/poster-780.jpg"
+                }
+            },
+            "The Decline": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Decline",
+                    "year": "2020",
+                    "imdb": "IMDB: 5.9/10",
+                    "rg": "RG: 56",
+                    "length": "1h 23m",
+                    "genre": "Thriller, Action & Adventure",
+                    "desc": "Anticipating a disaster, Antoine, a father, attends a survivalist training given by Alain in his autonomous hideout. In fear of...",
+                    "image": "https://img.reelgood.com/content/movie/377fcc9b-badd-4f94-be98-287119a98c4d/poster-780.jpg"
+                }
+            },
+            "Pokemon: Mewtwo Strikes Back - Evolution": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Pokemon: Mewtwo Strikes Back - Evolution",
+                    "year": "2019",
+                    "imdb": "IMDB: 5.7/10",
+                    "rg": "RG: 61",
+                    "length": "1h 38m",
+                    "genre": "Animation, Anime",
+                    "desc": "After accepting an invitation from a mysterious trainer, Ash, Misty and Brock meet Mewtwo, an artificially created Pokemon who wants...",
+                    "image": "https://img.reelgood.com/content/movie/a075599e-91dc-4a70-bb54-cb2c393ba504/poster-780.jpg"
+                }
+            },
+            "Seal Team Six: The Raid on Osama Bin Laden": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Seal Team Six: The Raid on Osama Bin Laden",
+                    "year": "2012",
+                    "imdb": "IMDB: 5.7/10",
+                    "rg": "RG: 58",
+                    "length": "1h 30m",
+                    "genre": "Action & Adventure, Crime",
+                    "desc": "When the rumored whereabouts of Osama bin Laden are revealed, the CIA readies a team of seasoned U.S. Navy SEALs...",
+                    "image": "https://img.reelgood.com/content/movie/6d5c428d-f289-4c03-a628-58d64b37dd5c/poster-780.jpg"
+                }
+            },
+            "Slam": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Slam",
+                    "year": "2008",
+                    "imdb": "IMDB: 5.9/10",
+                    "rg": "RG: 44",
+                    "length": "1h 33m",
+                    "genre": "Action & Adventure, Drama",
+                    "desc": "Mouth, Monkey, and Jason are your average teenagers with a love for the game of basketball. On the last day...",
+                    "image": "https://img.reelgood.com/content/movie/a12a7f12-c154-4bb5-af68-cc52700e0a4f/poster-780.jpg"
+                }
+            },
+            "7 Anos": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "7 Anos",
+                    "year": "2016",
+                    "imdb": "IMDB: 6.8/10",
+                    "rg": "RG: 51",
+                    "length": "1h 17m",
+                    "genre": "Drama",
+                    "desc": "The drama is centered around four friends and business partners who in one evening are forced to find a way...",
+                    "image": "https://img.reelgood.com/content/movie/f83bc15c-f791-4015-8c4c-98d257210eb5/poster-780.jpg"
+                }
+            },
+            "Daffedar": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Daffedar",
+                    "year": "2016",
+                    "imdb": "IMDB: 5.8/10",
+                    "rg": "RG: 30",
+                    "length": "2h 33m",
+                    "genre": "Drama",
+                    "desc": "Daffadar is the story Ayyappan, a 65 years old honest, sincere, and compassionate security personnel (Daffadar) of the Collector for...",
+                    "image": "https://img.reelgood.com/content/movie/09071d85-f8cd-41f3-8073-67f5d0cdbee7/poster-780.jpg"
+                }
+            },
+            "Mirror Mirror": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Mirror Mirror",
+                    "year": "2012",
+                    "imdb": "IMDB: 5.6/10",
+                    "rg": "RG: 67",
+                    "length": "1h 46m",
+                    "genre": "Children, Comedy",
+                    "desc": "After she spends all her money, an evil enchantress queen schemes to marry a handsome, wealthy prince. There's just one...",
+                    "image": "https://img.reelgood.com/content/movie/20676451-ff96-4e06-b6aa-a5cad38146ab/poster-780.jpg"
+                }
+            },
+            "The Young Messiah": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "The Young Messiah",
+                    "year": "2016",
+                    "imdb": "IMDB: 5.6/10",
+                    "rg": "RG: 59",
+                    "length": "2h 0m",
+                    "genre": "Drama, Fantasy",
+                    "desc": "Tells the story of Jesus Christ at age seven as he and his family depart Egypt to return home to...",
+                    "image": "https://img.reelgood.com/content/movie/e8d1c3e8-4aa5-4ca2-acc6-e02ac587afdf/poster-780.jpg"
+                }
+            },
+            "Opening Night": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Opening Night",
+                    "year": "2016",
+                    "imdb": "IMDB: 6.2/10",
+                    "rg": "RG: 54",
+                    "length": "1h 30m",
+                    "genre": "Musical, Comedy",
+                    "desc": "A failed Broadway singer who now works as a production manager must save opening night on his new production by...",
+                    "image": "https://img.reelgood.com/content/movie/301d37a7-dbe7-419a-97a1-451bb0039717/poster-780.jpg"
+                }
+            },
+            "Bibi & Tina: Bewildered and Bewitched": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Bibi & Tina: Bewildered and Bewitched",
+                    "year": "2014",
+                    "imdb": "IMDB: 5.3/10",
+                    "rg": "RG: 43",
+                    "length": "1h 41m",
+                    "genre": "Action & Adventure, Family",
+                    "desc": "Sequel to the Movie \"Bibi & Tina - Der Film\" about a teen witch, her best friend and their horses.",
+                    "image": "https://img.reelgood.com/content/movie/bbbc251c-567c-46c6-acdd-7d4752ce6e33/poster-780.jpg"
+                }
+            },
+            "In the Shadow of Iris": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "In the Shadow of Iris",
+                    "year": "2016",
+                    "imdb": "IMDB: 6.1/10",
+                    "rg": "RG: 52",
+                    "length": "1h 39m",
+                    "genre": "Thriller, Mystery",
+                    "desc": "The sudden disappearance of a wealthy banker's wife cracks open a dizzying world of secret fetishes, desperate acts and elaborate...",
+                    "image": "https://img.reelgood.com/content/movie/2677a594-d17f-4413-80e3-51b374e9424c/poster-780.jpg"
+                }
+            },
+            "Ralphie May: Imperfectly Yours": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Ralphie May: Imperfectly Yours",
+                    "year": "2013",
+                    "imdb": "IMDB: 5.6/10",
+                    "rg": "RG: 40",
+                    "length": "1h 9m",
+                    "genre": "Comedy, Stand-up & Talk",
+                    "desc": "Standup in Las Vegas.",
+                    "image": "https://img.reelgood.com/content/movie/d4d1fdfe-c7a9-4319-b0b6-24e8bc27067c/poster-780.jpg"
+                }
+            },
+            "A Fortunate Man": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "A Fortunate Man",
+                    "year": "2018",
+                    "imdb": "IMDB: 7.2/10",
+                    "rg": "RG: 68",
+                    "length": "2h 42m",
+                    "genre": "Drama",
+                    "desc": "On his quest for happiness, Per decides to leave Jutland and an upbringing in a strict religious home. He runs...",
+                    "image": "https://img.reelgood.com/content/movie/654a81a6-2ab1-4280-bd33-d139088b6f6e/poster-780.jpg"
+                }
+            },
+            "Chippa": {
+                "userChoice": "No",
+                "movieInfo": {
+                    "name": "Chippa",
+                    "year": "2020",
+                    "imdb": "IMDB: 6.4/10",
+                    "rg": "RG: 47",
+                    "length": "1h 31m",
+                    "genre": "Drama",
+                    "desc": "At midnight on his 10th birthday, a boy scours the lesser-known Kolkata streets in search of a father hes never...",
+                    "image": "https://img.reelgood.com/content/movie/2c570355-68ea-4b24-9c38-9e7b01db0f11/poster-780.jpg"
+                }
+            },
+            "Katti Batti": {
+                "userChoice": "Yes",
+                "movieInfo": {
+                    "name": "Katti Batti",
+                    "year": "2015",
+                    "imdb": "IMDB: 4.9/10",
+                    "rg": "RG: 37",
+                    "length": "2h 18m",
+                    "genre": "Comedy, Romance",
+                    "desc": "A man falls in love with a woman because of her outlook on life. They are in a relationship for...",
+                    "image": "https://img.reelgood.com/content/movie/a613cd63-d1d9-4ae9-96be-58f7564f46b7/poster-780.jpg"
+                }
+            }
+        }
+    }
+}
