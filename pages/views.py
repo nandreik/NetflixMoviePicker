@@ -1,5 +1,4 @@
 import ast
-import time
 import threading
 
 from django.contrib.auth.forms import UserCreationForm

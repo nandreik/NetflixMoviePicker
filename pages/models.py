@@ -1,9 +1,9 @@
+from django.db import models
+from django.contrib.auth.models import User
+
 # Create your models here.
 # python manage.py makemigrations to make changes to models
 # python manage.py migrate to update db with changes
-
-from django.db import models
-from django.contrib.auth.models import User
 
 
 class Movie(models.Model):  # movie model is added to user which is logged in

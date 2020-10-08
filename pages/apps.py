@@ -12,14 +12,14 @@ def shutdown():  # close driver on server shutdown
     global Global_Driver
     if Global_Driver:
         Global_Driver.quit()
-        print("global driver shutdown", Global_Driver)
+        print("Global Driver Shutdown", Global_Driver)
         Global_Driver = None
 
 
 def init_driver():
     driver = webscraper.initDriver()
     # driver.set_page_load_timeout(3)
-    print("global driver initialized", driver)
+    print("Global Driver Initialized", driver)
     return driver
 
 
