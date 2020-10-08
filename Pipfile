@@ -11,8 +11,6 @@ django = "*"
 gunicorn = "*"
 heroku = "*"
 django-crispy-forms = "*"
-celery = "*"
-django-celery-results = "*"
 
 [requires]
 python_version = "3.8"
