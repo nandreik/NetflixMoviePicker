@@ -28,8 +28,8 @@ from .views import Global_Driver, init_driver, shutdown
 class PagesConfig(AppConfig):
     name = 'pages'
 
-    def ready(self):
-        atexit.register(shutdown)
+    # def ready(self):
+        # atexit.register(shutdown)
         # global Global_Driver
         # if os.environ.get('RUN_MAIN', None) == 'true':  # to not run init twice on "python manage.py runserver"
         #     if Global_Driver is None:
