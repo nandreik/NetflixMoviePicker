@@ -1,5 +1,4 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 from selenium.common import exceptions
 from time import sleep
 from unicodedata import normalize
@@ -11,23 +10,25 @@ driverPathChrome = r'webdriver/chromedriver.exe'
 
 
 def initDriver():   # connect web driver to roulette url
-    optionsChrome = Options()
+    optionsChrome = webdriver.ChromeOptions()
     # for local deployment
     # optionsChrome.add_argument("--headless")
     # optionsChrome.add_argument("--no-sandbox")
-    # optionsChrome.add_argument("--disable-gpu")
     # optionsChrome.add_argument("--disable-dev-shm-usage")
     # driver = webdriver.Chrome(executable_path=driverPathChrome, chrome_options=optionsChrome)
 
     # for heroku deployment
     # chromeBinary = os.environ.get('GOOGLE_CHROME_SHIM', None)
     # optionsChrome.binary_location = chromeBinary
-    optionsChrome.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+
+    CHROMEDRIVER_PATH = os.environ.get('CHROMEDRIVER_PATH', '/usr/local/bin/chromedriver')
+    GOOGLE_CHROME_BIN = os.environ.get('GOOGLE_CHROME_BIN', '/usr/bin/google-chrome')
+
+    optionsChrome.binary_location = GOOGLE_CHROME_BIN
     optionsChrome.add_argument("--headless")
     optionsChrome.add_argument("--no-sandbox")
-    optionsChrome.add_argument("--disable-gpu")
     optionsChrome.add_argument("--disable-dev-shm-usage")
-    driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=optionsChrome)
+    driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=optionsChrome)
 
     driver.get(url)
     driver = initSpin(driver)
