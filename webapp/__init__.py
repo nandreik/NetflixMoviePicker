@@ -21,12 +21,13 @@ directions for deploying to heroku
     heroku buildpacks:add https://github.com/heroku/heroku-buildpack-chromedriver
     heroku buildpacks:add https://github.com/heroku/heroku-buildpack-google-chrome
 
-
+    heroku buildpacks:add https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku/google-chrome.tgz
+    heroku buildpacks:add https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku/chromedriver.tgz
 3.2: add config vars through cmd
     heroku config:set GOOGLE_CHROME_BIN=/app/.apt/usr/bin/google_chrome
     heroku config:set CHROMEDRIVER_PATH=/app/.chromedriver/bin/chromedriver
 
-    heroku config:set GOOGLE_CHROME_SHIM=/app/.apt/opt/google/chrome/google-chrome
+    # heroku config:set GOOGLE_CHROME_SHIM=/app/.apt/opt/google/chrome/google-chrome
 
 4: git push heroku master
 5: heroku ps:scale web=1
