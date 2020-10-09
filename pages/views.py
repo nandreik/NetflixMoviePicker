@@ -52,9 +52,9 @@ class FindMoviePageView(generic.ListView):
             self.movie_dict = ast.literal_eval(request.POST['yes-btn'])  # get movie info from found movie
             if self.movie_dict:
                 self.movie_dict["userChoice"] = "Yes"
+                self.check_dict(self.movie_dict)
                 # create movie model from movie_dict and save it to current user
                 self.model = Movie.create(request, self.movie_dict)
-                self.check_model(self.model)
                 self.model.save()
 
             self.find_movie(Global_Driver)
@@ -63,9 +63,9 @@ class FindMoviePageView(generic.ListView):
             self.movie_dict = ast.literal_eval(request.POST['no-btn'])  # get movie info from found movie
             if self.movie_dict:
                 self.movie_dict["userChoice"] = "No"
+                self.check_dict(self.movie_dict)
                 # create movie model from movie_dict and save it to current user
                 self.model = Movie.create(request, self.movie_dict)
-                self.check_model(self.model)
                 self.model.save()
 
             self.find_movie(Global_Driver)
@@ -82,25 +82,10 @@ class FindMoviePageView(generic.ListView):
                 self.movie_dict["movieInfo"]["image"] = None
         print("Released")
 
-    def check_model(self, movie):   # check movie model for any not found attributes to avoid key error when adding to db
-        if movie.name is None:
-            movie.name = ""
-        if movie.year is None:
-            movie.year = ""
-        if movie.imdb is None:
-            movie.imdb = ""
-        if movie.rg is None:
-            movie.rg = ""
-        if movie.length is None:
-            movie.length = ""
-        if movie.genre is None:
-            movie.genre = ""
-        if movie.desc is None:
-            movie.desc = ""
-        if movie.image is None:
-            movie.image = ""
-        if movie.desc is None:
-            movie.desc = ""
+    def check_dict(self, movie):   # check movie dict for any not found attributes to avoid key error when adding to db
+        for attr in movie['movieInfo']:
+            if attr is None:
+                attr = ""
 
 
 class FindFriendPageView(TemplateView):
