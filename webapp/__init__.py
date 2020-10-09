@@ -17,6 +17,7 @@ directions for deploying to heroku
     # Python: heroku/python
     # Headless Google Chrome: https://github.com/heroku/heroku-buildpack-google-chrome
     # Chromedriver: https://github.com/heroku/heroku-buildpack-chromedriver
+    heroku buildpacks:add heroku/python
     heroku buildpacks:add https://github.com/heroku/heroku-buildpack-chromedriver
     heroku buildpacks:add https://github.com/heroku/heroku-buildpack-google-chrome
 3.2: add config vars through cmd

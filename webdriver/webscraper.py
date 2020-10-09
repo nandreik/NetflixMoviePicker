@@ -12,11 +12,12 @@ driverPathChrome = r'webdriver/chromedriver.exe'
 
 def initDriver():   # connect web driver to roulette url
     optionsChrome = Options()
-    optionsChrome.binary_location = os.getenv("GOOGLE_CHROME_BIN")
+    optionsChrome.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
     optionsChrome.add_argument("--headless")
     optionsChrome.add_argument("--no-sandbox")
     optionsChrome.add_argument("--disable-gpu")
-    driver = webdriver.Chrome(executable_path=os.getenv("CHROMEDRIVER_PATH"), chrome_options=optionsChrome)
+    optionsChrome.add_argument("--disable-dev-sh-usage")
+    driver = webdriver.Chrome(executable_path=os.os.environ.get("CHROMEDRIVER_PATH"), chrome_options=optionsChrome)
     driver.get(url)
     initSpin(driver)
     return driver
