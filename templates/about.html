@@ -6,10 +6,34 @@
     <meta charset="UTF-8">
     <title>About</title>
 </head>
-
 <body>
 {% block content %}
-<h1>About</h1>
+<h1 style="text-decoration: underline">About</h1>
+<h7>This is is a webapp written by myself, Nikita Andreikin, in an attempt to learn more about software development and Django.</h7>
+<br>
+<h7>The purpose of this webapp is to let users vote on movies they would like to watch on Netflix and then compare common movies with another user to make choosing a movie easier.</h7>
+<br>
+<br>
+<h7>This webapp utilizes Django as the web-framework, Selenium for webscraping random movies from <a href="url">https://reelgood.com/movies/roulette/netflix</a>, and Heroku for online deployment.</h7>
+<br>
+<h7>You may ask, "Why wouldn't I just use the reelgood.com website for this purpose?", and to that I say: The reelgood.com website does not allow for comparison of common movies with another user.</h7>
+<br>
+<br>
+<h7 style="font-weight: bold">**To have a greater chance of finding common movies with a friend I recommend looking through and voting on as many movies as possible.**</h7>
+<br>
+<br>
+<h5>Current Features:</h5>
+<ul>
+    <li>Random netflix movie search</li>
+    <li>Find a friend with common movies</li>
+</ul>
+
+<h5>Future Feature Considerations:</h5>
+<ul>
+    <li>Add options to specify movie search (genre, min-rating, year, etc..)</li>
+    <li>Add option to look at a friend's movie list</li>
+</ul>
+
 {% endblock content %}
 </body>
 </html>

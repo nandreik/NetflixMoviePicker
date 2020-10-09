@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.common import exceptions
+from selenium.common.exceptions import NoSuchElementException
 from time import sleep
 from unicodedata import normalize
 from data_access_lib import data_access
@@ -12,23 +12,18 @@ driverPathChrome = r'webdriver/chromedriver.exe'
 
 def initDriver():   # connect web driver to roulette url
     optionsChrome = Options()
-    # for local deployment
+    # for local development
     # optionsChrome.add_argument("--headless")
     # optionsChrome.add_argument("--no-sandbox")
     # optionsChrome.add_argument("--disable-dev-shm-usage")
     # driver = webdriver.Chrome(executable_path=driverPathChrome, options=optionsChrome)
 
     # for heroku deployment
-    # GOOGLE_CHROME_BIN = '/app/.apt/usr/bin/google_chrome'
-    # CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
-
     optionsChrome.binary_location = os.environ.get('GOOGLE_CHROME_BIN')
-    # optionsChrome.binary_location = GOOGLE_CHROME_BIN
     optionsChrome.add_argument("--headless")
     optionsChrome.add_argument("--no-sandbox")
     optionsChrome.add_argument("--disable-dev-shm-usage")
     driver = webdriver.Chrome(executable_path=os.environ.get('CHROMEDRIVER_PATH'), options=optionsChrome)
-    # driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=optionsChrome)
 
     driver.get(url)
     driver = initSpin(driver)
@@ -51,36 +46,41 @@ def initSpin(driver):   # set up spin options for movies only and any score
 
 
 def findMovie(driver):  # spin for a movie and return its info as json string
-    # check for popup, if it exists then exit it
-    try:
+    try:    # check for popup in website that blocks spin button, if it exists then exit it
         popupExit = driver.find_element_by_css_selector(".css-1y9bki9")
         popupExit.click()
-
-    finally:
-        # spin
-        spinButton = driver.find_element_by_css_selector(".css-1lm9uo8")
-        spinButton.click()
-        # find movie details
-        sleep(.5)  # wait a bit to let movie info load, otherwise may try to read before it is loaded
+        print("Popup Found")
+    except NoSuchElementException as e:
+        print("No Popup Found")
+    # spin
+    spinButton = driver.find_element_by_css_selector(".css-1lm9uo8")
+    spinButton.click()
+    # find movie details
+    sleep(.5)  # wait a bit to let movie info load, otherwise may try to read before it is loaded
+    try:
         movieElem = driver.find_element_by_css_selector(".css-hin13p").text.splitlines()
-        infoTemp = ["name", "year", "imdb", "rg", "length", "genre", "desc"]
-        movie = {}  # dict for name only that holds dict with movie info
-        movieInfo = {}  # dictionary for movie information
-        for i in range(len(movieElem) - 2):
-            key = infoTemp[i]
-            val = normalize('NFKD', movieElem[i]).encode('ascii', 'ignore')     # normalize unicode, some movies can have weird chars that don't translate to ascii well
-            movieInfo[key] = val.decode('utf-8')
-        # add the movie image because why not
-        try:
-            image = driver.find_element_by_css_selector(".css-1sz776d").get_attribute("src")
-        except exceptions.NoSuchElementException:
-            image = ""
-        movieInfo["image"] = image
-        # add key for user decision for movie ("yes"/"no")
-        movie["userChoice"] = ""
-        # add movie info dict to movieDict
-        movie["movieInfo"] = movieInfo
-        return movie
+        print("Movie Info Found")
+    except NoSuchElementException as e:     # sometimes driver can't find movie info for some reason, in that case, retry the findmovie() function
+        print("Movie Info Not Found")
+        return findMovie(driver)
+    infoTemp = ["name", "year", "imdb", "rg", "length", "genre", "desc"]
+    movie = {}  # dict for name only that holds dict with movie info
+    movieInfo = {}  # dictionary for movie information
+    for i in range(len(movieElem) - 2):
+        key = infoTemp[i]
+        val = normalize('NFKD', movieElem[i]).encode('ascii', 'ignore')     # normalize unicode, some movies can have weird chars that don't translate to ascii well
+        movieInfo[key] = val.decode('utf-8')
+    # add the movie image because why not
+    try:
+        image = driver.find_element_by_css_selector(".css-1sz776d").get_attribute("src")
+    except NoSuchElementException as e:
+        image = ""
+    movieInfo["image"] = image
+    # add key for user decision for movie ("yes"/"no")
+    movie["userChoice"] = ""
+    # add movie info dict to movieDict
+    movie["movieInfo"] = movieInfo
+    return movie
 
 
 """

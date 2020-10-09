@@ -10,27 +10,56 @@
 
 <body>
 {% block content %}
-{% if user.is_authenticated %}
+
     <div class="movie-container" style="display:flex">
         {% if movie.movieInfo %}
             <div class="movie-info" style="flex: 1; padding:1rem">
-                <h3 style="font-weight: bold">{{ movie.movieInfo.name }} ({{ movie.movieInfo.year }})</h3>
-                <br>
-                <h5 style="padding-left: 100px">{{ movie.movieInfo.imdb }}</h5>
-                <h5 style="padding-left: 100px">{{ movie.movieInfo.rg }}</h5>
-                <h5 style="padding-left: 100px">Length: {{ movie.movieInfo.length }}</h5>
-                <h5 style="padding-left: 100px">Genre: {{ movie.movieInfo.genre }}</h5>
-                <br>
-                <h5 style="text-decoration: underline">Description</h5>
-                <p style="font-size:20px">{{ movie.movieInfo.desc }}</p>
+                {% if movie.movieInfo.name %}
+                    <h3 style="font-weight: bold">{{ movie.movieInfo.name }} ({{ movie.movieInfo.year }})</h3>
+                    <br>
+                {% endif %}
+                {% if movie.movieInfo.imdb|length > 5 %}
+                    <h5 style="padding-left: 100px">{{ movie.movieInfo.imdb }}</h5>
+                {% else %}
+                    <h5 style="padding-left: 100px">IMDB: Not Found</h5>
+                {% endif %}
+                {% if movie.movieInfo.rg|length > 3 %}
+                    <h5 style="padding-left: 100px">{{ movie.movieInfo.rg }}</h5>
+                {% else %}
+                    <h5 style="padding-left: 100px">RG: Not Found</h5>
+                {% endif %}
+                {% if movie.movieInfo.length|length > 1 %}
+                    <h5 style="padding-left: 100px">Length: {{ movie.movieInfo.length }}</h5>
+                {% else %}
+                    <h5 style="padding-left: 100px">Length: Not Found</h5>
+                {% endif %}
+                {% if movie.movieInfo.genre|length > 3 %}
+                    <h5 style="padding-left: 100px">Genre: {{ movie.movieInfo.genre }}</h5>
+                    <br>
+                {% else %}
+                    <h5 style="padding-left: 100px">Genre: Not Found</h5>
+                    <br>
+                {% endif %}
+                {% if movie.movieInfo.desc|length > 10 %}
+                    <h5 style="text-decoration: underline">Description</h5>
+                    <p style="font-size:20px">{{ movie.movieInfo.desc }}</p>
+                {% else %}
+                    <h5 style="text-decoration: underline">Description</h5>
+                    <p style="font-size:20px">Not Found</p>
+                {% endif %}
             </div>
-            {% if movie.movieInfo.image %}
+            {% if movie.movieInfo.image|length > 10 %}
                 <div class="movie-poster" style="flex: 1; padding:1rem">
-                    <img src="{{ movie.movieInfo.image }}" style="border: 2px solid black; width:400px"/>
+                    <img src="{{ movie.movieInfo.image }}" style="border: 2px solid black; height:400px"/>
+                </div>
+            {% else %}
+                <div class="movie-poster" style="flex: 1; padding:1rem">
+                    <h3 style="border: 2px solid black; height:400px; width: 350px; padding: 120px">No Poster Found</h3>
                 </div>
             {% endif %}
         {% endif %}
     </div>
+{% if user.is_authenticated %}
     <div class="buttons" style="margin: auto; width:50%; text-align:center">
         <form method="post">
             {% csrf_token %}
