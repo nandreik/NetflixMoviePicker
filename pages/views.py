@@ -33,37 +33,50 @@ class SignupPageView(generic.CreateView):
     success_url = reverse_lazy('login')
 
 
-Global_Driver = None    # single global var for the webdriver to initialized on startup
-
-
-def shutdown():  # close driver on server shutdown
-    global Global_Driver
-    if Global_Driver:
-        Global_Driver.quit()
-        print("Global Driver Shutdown", Global_Driver)
-        Global_Driver = None
-
-
-def init_driver():
-    driver = webscraper.initDriver()
-    # driver.set_page_load_timeout(3)
-    print("Global Driver Initialized", driver)
-    return driver
+# Global_Driver = None    # single global var for the webdriver to initialized on startup
+#
+#
+# def shutdown():  # close driver on server shutdown
+#     global Global_Driver
+#     if Global_Driver:
+#         Global_Driver.quit()
+#         print("Global Driver Shutdown", Global_Driver)
+#         Global_Driver = None
+#
+#
+# def init_driver():
+#     driver = webscraper.initDriver()
+#     # driver.set_page_load_timeout(3)
+#     print("Global Driver Initialized", driver)
+#     return driver
 
 
 class FindMoviePageView(generic.ListView):
     template_name = "findmovie.html"
     model = Movie
     movie_dict = None  # place holder for movie find by webdriver
+    driver = None  # single global var for the webdriver to initialized on startup
+
+    def shutdown(self):  # close driver on server shutdown
+        if self.driver:
+            self.driver.quit()
+            print("Global Driver Shutdown", self.driver)
+            self.driver = None
+
+    def init_driver(self):
+        self.driver = webscraper.initDriver()
+        # driver.set_page_load_timeout(3)
+        print("Global Driver Initialized", self.driver)
+        return self.driver
 
     def post(self, request):
-        global Global_Driver
-        print(Global_Driver)
-        if Global_Driver is None:
-            Global_Driver = init_driver()
+        # global Global_Driver
+        # print(Global_Driver)
+        if self.driver is None:
+            self.driver = self.init_driver()
 
         if request.POST.get('spin-btn'):  # handle spin button
-            self.find_movie(Global_Driver)
+            self.find_movie(self.driver)
 
         elif request.POST.get('yes-btn'):  # handle yes button
             self.movie_dict = ast.literal_eval(request.POST['yes-btn'])  # get movie info from found movie
@@ -73,7 +86,7 @@ class FindMoviePageView(generic.ListView):
                 self.model = Movie.create(request, self.movie_dict)
                 self.model.save()
 
-            self.find_movie(Global_Driver)
+            self.find_movie(self.driver)
 
         elif request.POST.get('no-btn'):  # handle no button
             self.movie_dict = ast.literal_eval(request.POST['no-btn'])  # get movie info from found movie
@@ -83,7 +96,7 @@ class FindMoviePageView(generic.ListView):
                 self.model = Movie.create(request, self.movie_dict)
                 self.model.save()
 
-            self.find_movie(Global_Driver)
+            self.find_movie(self.driver)
 
         return render(request, self.template_name, {'movie': self.movie_dict})
 
