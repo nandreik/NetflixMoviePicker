@@ -13,21 +13,21 @@ driverPathChrome = r'webdriver/chromedriver.exe'
 def initDriver():   # connect web driver to roulette url
     optionsChrome = Options()
     # for local deployment
-    optionsChrome.add_argument("--headless")
-    optionsChrome.add_argument("--no-sandbox")
-    optionsChrome.add_argument("--disable-dev-shm-usage")
-    driver = webdriver.Chrome(executable_path=driverPathChrome, options=optionsChrome)
+    # optionsChrome.add_argument("--headless")
+    # optionsChrome.add_argument("--no-sandbox")
+    # optionsChrome.add_argument("--disable-dev-shm-usage")
+    # driver = webdriver.Chrome(executable_path=driverPathChrome, options=optionsChrome)
 
     # for heroku deployment
     # GOOGLE_CHROME_BIN = '/app/.apt/usr/bin/google_chrome'
     # CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
 
-    # optionsChrome.binary_location = os.environ.get('GOOGLE_CHROME_BIN')
+    optionsChrome.binary_location = os.environ.get('GOOGLE_CHROME_BIN')
     # optionsChrome.binary_location = GOOGLE_CHROME_BIN
-    # optionsChrome.add_argument("--headless")
-    # optionsChrome.add_argument("--no-sandbox")
-    # optionsChrome.add_argument("--disable-dev-shm-usage")
-    # driver = webdriver.Chrome(executable_path=os.environ.get('CHROMEDRIVER_PATH'), options=optionsChrome)
+    optionsChrome.add_argument("--headless")
+    optionsChrome.add_argument("--no-sandbox")
+    optionsChrome.add_argument("--disable-dev-shm-usage")
+    driver = webdriver.Chrome(executable_path=os.environ.get('CHROMEDRIVER_PATH'), options=optionsChrome)
     # driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=optionsChrome)
 
     driver.get(url)
