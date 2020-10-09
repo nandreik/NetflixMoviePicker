@@ -3,7 +3,7 @@ from webdriver import webscraper
 import os
 import atexit
 
-from .views import Global_Driver, init_driver, shutdown
+# from .views import Global_Driver, init_driver, shutdown
 # config file for app
 
 
