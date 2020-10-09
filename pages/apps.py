@@ -29,6 +29,8 @@ class PagesConfig(AppConfig):
     def ready(self):
         atexit.register(shutdown)
         global Global_Driver
-        if os.environ.get('RUN_MAIN', None) == 'true':  # to not run init twice on "python manage.py runserver"
-            if Global_Driver is None:
-                Global_Driver = init_driver()
+        # if os.environ.get('RUN_MAIN', None) == 'true':  # to not run init twice on "python manage.py runserver"
+        #     if Global_Driver is None:
+        #         Global_Driver = init_driver()
+
+        Global_Driver = init_driver()
