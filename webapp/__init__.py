@@ -11,11 +11,14 @@
 directions for deploying to heroku
 
 1: git clone https://github.com/nandreik/NetflixMoviePicker.git
-2: cd to cloned proj in cmd
+2: cd NetflixMoviePicker
 3: heroku create netflixmoviepicker
 3.1: add buildpacks for driver in heroku app settings
-    Headless Google Chrome: https://github.com/heroku/heroku-buildpack-google-chrome
-    Chromedriver: https://github.com/heroku/heroku-buildpack-chromedriver
+    # Python: heroku/python
+    # Headless Google Chrome: https://github.com/heroku/heroku-buildpack-google-chrome
+    # Chromedriver: https://github.com/heroku/heroku-buildpack-chromedriver
+    heroku buildpacks:add https://github.com/heroku/heroku-buildpack-chromedriver
+    heroku buildpacks:add https://github.com/heroku/heroku-buildpack-google-chrome
 3.2: add config vars through cmd
     heroku config:set GOOGLE_CHROME_BIN=/app/.apt/usr/bin/google_chrome
     heroku config:set CHROMEDRIVER_PATH=/app/.chromedriver/bin/chromedriver
