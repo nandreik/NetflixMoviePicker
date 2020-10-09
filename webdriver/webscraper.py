@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.common import exceptions
 from time import sleep
 from unicodedata import normalize
@@ -10,7 +11,7 @@ driverPathChrome = r'webdriver/chromedriver.exe'
 
 
 def initDriver():   # connect web driver to roulette url
-    optionsChrome = webdriver.ChromeOptions()
+    optionsChrome = Options()
     # for local deployment
     # optionsChrome.add_argument("--headless")
     # optionsChrome.add_argument("--no-sandbox")
