@@ -52,7 +52,6 @@ class FindMoviePageView(generic.ListView):
             self.movie_dict = ast.literal_eval(request.POST['yes-btn'])  # get movie info from found movie
             if self.movie_dict:
                 self.movie_dict["userChoice"] = "Yes"
-                self.check_dict(self.movie_dict)
                 # create movie model from movie_dict and save it to current user
                 self.model = Movie.create(request, self.movie_dict)
                 self.model.save()
@@ -63,7 +62,6 @@ class FindMoviePageView(generic.ListView):
             self.movie_dict = ast.literal_eval(request.POST['no-btn'])  # get movie info from found movie
             if self.movie_dict:
                 self.movie_dict["userChoice"] = "No"
-                self.check_dict(self.movie_dict)
                 # create movie model from movie_dict and save it to current user
                 self.model = Movie.create(request, self.movie_dict)
                 self.model.save()
@@ -80,12 +78,15 @@ class FindMoviePageView(generic.ListView):
             self.movie_dict = webscraper.findMovie(driver)
             if len(self.movie_dict["movieInfo"]["image"]) < 5:  # check to see if there is a real src image to return
                 self.movie_dict["movieInfo"]["image"] = None
+            self.check_dict(self.movie_dict)
         print("Released")
 
     def check_dict(self, movie):   # check movie dict for any not found attributes to avoid key error when adding to db
+        print(movie)
         for attr in movie['movieInfo']:
             if attr is None:
                 attr = ""
+        print(movie)
 
 
 class FindFriendPageView(TemplateView):
