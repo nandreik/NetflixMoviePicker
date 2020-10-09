@@ -18,11 +18,8 @@ def initDriver():   # connect web driver to roulette url
     # driver = webdriver.Chrome(executable_path=driverPathChrome, chrome_options=optionsChrome)
 
     # for heroku deployment
-    # chromeBinary = os.environ.get('GOOGLE_CHROME_SHIM', None)
-    # optionsChrome.binary_location = chromeBinary
-
-    CHROMEDRIVER_PATH = os.environ.get('CHROMEDRIVER_PATH', '/usr/local/bin/chromedriver')
-    GOOGLE_CHROME_BIN = os.environ.get('GOOGLE_CHROME_BIN', '/usr/bin/google-chrome')
+    CHROMEDRIVER_PATH = os.environ.get('CHROMEDRIVER_PATH')
+    GOOGLE_CHROME_BIN = os.environ.get('GOOGLE_CHROME_BIN')
 
     optionsChrome.binary_location = GOOGLE_CHROME_BIN
     optionsChrome.add_argument("--headless")
