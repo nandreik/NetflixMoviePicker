@@ -83,11 +83,23 @@ class FindMoviePageView(generic.ListView):
 
     def check_dict(self, movie):   # check movie dict for any not found attributes to avoid key error when adding to db
         print(movie)
-        for attr in movie['movieInfo']:
-            if attr is None:
-                attr = ""
+        if "name" not in movie.keys():
+            movie['name'] = ""
+        if "year" not in movie.keys():
+            movie['year'] = ""
+        if "imdb" not in movie.keys():
+            movie['imdb'] = ""
+        if "rg" not in movie.keys():
+            movie['rg'] = ""
+        if "length" not in movie.keys():
+            movie['length'] = ""
+        if "genre" not in movie.keys():
+            movie['genre'] = ""
+        if "desc" not in movie.keys():
+            movie['desc'] = ""
+        if "image" not in movie.keys():
+            movie['image'] = ""
         print(movie)
-
 
 class FindFriendPageView(TemplateView):
     template_name = "findfriend.html"
