@@ -3,26 +3,25 @@ from webdriver import webscraper
 import os
 import atexit
 
-# from .views import Global_Driver, init_driver, shutdown
 # config file for app
 
 
-# Global_Driver = None    # single global var for the webdriver to initialized on startup
-#
-#
-# def shutdown():  # close driver on server shutdown
-#     global Global_Driver
-#     if Global_Driver:
-#         Global_Driver.quit()
-#         print("Global Driver Shutdown", Global_Driver)
-#         Global_Driver = None
-#
-#
-# def init_driver():
-#     driver = webscraper.initDriver()
-#     # driver.set_page_load_timeout(3)
-#     print("Global Driver Initialized", driver)
-#     return driver
+Global_Driver = None    # single global var for the webdriver to initialized on startup
+
+
+def shutdown():  # close driver on server shutdown
+    global Global_Driver
+    if Global_Driver:
+        Global_Driver.quit()
+        print("Global Driver Shutdown", Global_Driver)
+        Global_Driver = None
+
+
+def init_driver():
+    driver = webscraper.initDriver()
+    # driver.set_page_load_timeout(3)
+    print("Global Driver Initialized", driver)
+    return driver
 
 
 class PagesConfig(AppConfig):
