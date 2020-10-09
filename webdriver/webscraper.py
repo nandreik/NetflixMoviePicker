@@ -16,10 +16,12 @@ def initDriver():   # connect web driver to roulette url
     # optionsChrome.add_argument("--headless")
     # optionsChrome.add_argument("--no-sandbox")
     # optionsChrome.add_argument("--disable-dev-shm-usage")
-    # driver = webdriver.Chrome(executable_path=driverPathChrome, chrome_options=optionsChrome)
+    # driver = webdriver.Chrome(executable_path=driverPathChrome, options=optionsChrome)
 
     # for heroku deployment
     optionsChrome.binary_location = os.environ.get('GOOGLE_CHROME_BIN')
+    print(os.environ.get('GOOGLE_CHROME_BIN'))
+    print(os.environ.get('CHROMEDRIVER_PATH'))
     optionsChrome.add_argument("--headless")
     optionsChrome.add_argument("--no-sandbox")
     optionsChrome.add_argument("--disable-dev-shm-usage")
