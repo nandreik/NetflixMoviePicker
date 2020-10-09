@@ -27,7 +27,7 @@ def initDriver():   # connect web driver to roulette url
     optionsChrome.add_argument("--no-sandbox")
     optionsChrome.add_argument("--disable-gpu")
     optionsChrome.add_argument("--disable-dev-sh-usage")
-    driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=optionsChrome)
+    driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=optionsChrome)
 
     driver.get(url)
     driver = initSpin(driver)

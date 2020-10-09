@@ -27,6 +27,7 @@ directions for deploying to heroku
     heroku config:set CHROMEDRIVER_PATH=/app/.chromedriver/bin/chromedriver
 
     heroku config:set GOOGLE_CHROME_SHIM=/app/.apt/opt/google/chrome/google-chrome
+
 4: git push heroku master
 5: heroku ps:scale web=1
 6: heroku open
