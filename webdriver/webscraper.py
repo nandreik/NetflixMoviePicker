@@ -1,10 +1,10 @@
 from selenium import webdriver
-# from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.chrome.options import Options
 from selenium.common import exceptions
 from time import sleep
 from unicodedata import normalize
 from data_access_lib import data_access
+import os
 
 url = "https://reelgood.com/roulette/netflix"
 driverPathChrome = r'webdriver/chromedriver.exe'
@@ -12,8 +12,11 @@ driverPathChrome = r'webdriver/chromedriver.exe'
 
 def initDriver():   # connect web driver to roulette url
     optionsChrome = Options()
-    optionsChrome.headless = True  # run browser windowless
-    driver = webdriver.Chrome(options=optionsChrome, executable_path=driverPathChrome)
+    optionsChrome.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+    optionsChrome.add_argument("--headless")
+    optionsChrome.add_argument("--disable-dev-shm-usage")
+    optionsChrome.add_argument("--no-sandbox")
+    driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=optionsChrome)
     driver.get(url)
     initSpin(driver)
     return driver
