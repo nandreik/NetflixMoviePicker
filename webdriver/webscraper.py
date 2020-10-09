@@ -20,14 +20,17 @@ def initDriver():   # connect web driver to roulette url
     # driver = webdriver.Chrome(executable_path=driverPathChrome, chrome_options=optionsChrome)
 
     # for heroku deployment
-    optionsChrome.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+    chromeBinary = os.environ.get('GOOGLE_CHROME_SHIM', None)
+    # optionsChrome.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+    optionsChrome.binary_location = chromeBinary
     optionsChrome.add_argument("--headless")
     optionsChrome.add_argument("--no-sandbox")
     optionsChrome.add_argument("--disable-gpu")
     optionsChrome.add_argument("--disable-dev-sh-usage")
     driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=optionsChrome)
+
     driver.get(url)
-    initSpin(driver)
+    driver = initSpin(driver)
     return driver
 
 
@@ -42,6 +45,7 @@ def initSpin(driver):   # set up spin options for movies only and any score
     rgMenu.click()
     rgAnyScore = driver.find_element_by_css_selector(".css-1jcj7xc > div:nth-child(6)")
     rgAnyScore.click()
+    print("Website Menu Set Up")
     return driver
 
 
