@@ -10,7 +10,7 @@ from django.views.generic import TemplateView
 
 from webdriver import webscraper
 from .models import Movie
-from .apps import Global_Driver, init_driver, shutdown
+# from .apps import Global_Driver, init_driver, shutdown
 
 # handle request/response logic
 # Create your views here.
@@ -33,6 +33,24 @@ class SignupPageView(generic.CreateView):
     success_url = reverse_lazy('login')
 
 
+Global_Driver = None    # single global var for the webdriver to initialized on startup
+
+
+def shutdown():  # close driver on server shutdown
+    global Global_Driver
+    if Global_Driver:
+        Global_Driver.quit()
+        print("Global Driver Shutdown", Global_Driver)
+        Global_Driver = None
+
+
+def init_driver():
+    driver = webscraper.initDriver()
+    # driver.set_page_load_timeout(3)
+    print("Global Driver Initialized", driver)
+    return driver
+
+
 class FindMoviePageView(generic.ListView):
     template_name = "findmovie.html"
     model = Movie
@@ -40,6 +58,9 @@ class FindMoviePageView(generic.ListView):
 
     def post(self, request):
         global Global_Driver
+        print(Global_Driver)
+        if Global_Driver is None:
+            Global_Driver = init_driver()
 
         if request.POST.get('spin-btn'):  # handle spin button
             self.find_movie(Global_Driver)
