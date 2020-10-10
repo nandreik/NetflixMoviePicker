@@ -1,7 +1,7 @@
 # NetflixMovieRoulette
 https://netflixmovieroulette.herokuapp.com/findfriend/
 
-This is is a webapp written by myself, Nikita Andreikin, in an attempt to learn more about software development and Django.
+This is is a webapp written by myself in an attempt to learn more about software development and Django.
 
 The purpose of this webapp is to let users vote on movies they would like to watch on Netflix and then compare common movies with another user to make choosing a movie easier.
 
