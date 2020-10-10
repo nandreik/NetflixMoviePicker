@@ -18,4 +18,4 @@ You may ask, "Why wouldn't I just use the reelgood.com website for this purpose?
 #### 2) Add option to look at a friend's movie list
 	A new page to view a friend's movies should be pretty easy to add 
 #### 3) Add a working email service for forgotten passwords
-  Currently the forgot password email service is non-functional, further research is needed to find the best way to implement this
+ 	Currently the forgot password email service is non-functional, further research is needed to find the best way to implement this
