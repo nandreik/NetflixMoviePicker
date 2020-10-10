@@ -110,10 +110,12 @@ class FindFriendPageView(TemplateView):
 
     def post(self, request):
         if request.POST.get('find-btn'):  # handle find
+            # conv friend search to lower case
+            friendSearch = (request.POST['friend']).lower()
             # check if friend is user
-            if User.objects.filter(username=request.POST['friend']).exists():
+            if User.objects.filter(username=friendSearch.exists()):
                 print("Friend Exists")
-                self.friend = User.objects.get(username=request.POST['friend'])
+                self.friend = User.objects.get(username=friendSearch)
                 # find User's and Friend's movies
                 userMovies = Movie.objects.filter(user=request.user)
                 friendMovies = Movie.objects.filter(user=self.friend)
