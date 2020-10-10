@@ -113,7 +113,7 @@ class FindFriendPageView(TemplateView):
             # conv friend search to lower case
             friendSearch = (request.POST['friend']).lower()
             # check if friend is user
-            if User.objects.filter(username=friendSearch.exists()):
+            if User.objects.filter(username=friendSearch).exists():
                 print("Friend Exists")
                 self.friend = User.objects.get(username=friendSearch)
                 # find User's and Friend's movies
