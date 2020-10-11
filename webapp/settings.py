@@ -21,10 +21,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'c=k=_9wm1&q$(0z&@5e$s$hwik04!iw*uh)mli3+iqludh&km^'
-
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+try:
+    from .security import *
+except ImportError:
+    print("Error: make local version of 'security.py' from the template.")
 
 ALLOWED_HOSTS = ['*']   # changed to '*'
 
