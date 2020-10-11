@@ -1,0 +1,85 @@
+<!-- templates/findmovie.html -->
+{% extends 'base.html' %}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Movie</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" /> <!-- css doesn't seem to load from style.css -->
+</head>
+
+<body>
+{% block content %}
+
+    <div class="movie-container" style="display:flex">
+        {% if movie.movieInfo %}
+            <div class="movie-info" style="flex: 1; padding:1rem">
+                {% if movie.movieInfo.name %}
+                    <h3 style="font-weight: bold">{{ movie.movieInfo.name }} ({{ movie.movieInfo.year }})</h3>
+                    <br>
+                {% endif %}
+                {% if movie.movieInfo.imdb|length > 5 %}
+                    <h5 style="padding-left: 100px">{{ movie.movieInfo.imdb }}</h5>
+                {% else %}
+                    <h5 style="padding-left: 100px">IMDB: Not Found</h5>
+                {% endif %}
+                {% if movie.movieInfo.rg|length > 3 %}
+                    <h5 style="padding-left: 100px">{{ movie.movieInfo.rg }}</h5>
+                {% else %}
+                    <h5 style="padding-left: 100px">RG: Not Found</h5>
+                {% endif %}
+                {% if movie.movieInfo.length|length > 1 %}
+                    <h5 style="padding-left: 100px">Length: {{ movie.movieInfo.length }}</h5>
+                {% else %}
+                    <h5 style="padding-left: 100px">Length: Not Found</h5>
+                {% endif %}
+                {% if movie.movieInfo.genre|length > 3 %}
+                    <h5 style="padding-left: 100px">Genre: {{ movie.movieInfo.genre }}</h5>
+                    <br>
+                {% else %}
+                    <h5 style="padding-left: 100px">Genre: Not Found</h5>
+                    <br>
+                {% endif %}
+                {% if movie.movieInfo.desc|length > 10 %}
+                    <h5 style="text-decoration: underline">Description</h5>
+                    <p style="font-size:20px">{{ movie.movieInfo.desc }}</p>
+                {% else %}
+                    <h5 style="text-decoration: underline">Description</h5>
+                    <p style="font-size:20px">Not Found</p>
+                {% endif %}
+            </div>
+            {% if movie.movieInfo.image|length > 10 %}
+                <div class="movie-poster" style="flex: 1; padding:1rem">
+                    <img src="{{ movie.movieInfo.image }}" style="border: 2px solid black; height:400px"/>
+                </div>
+            {% else %}
+                <div class="movie-poster" style="flex: 1; padding:1rem">
+                    <h3 style="border: 2px solid black; height:400px; width: 350px; padding: 120px">No Poster Found</h3>
+                </div>
+            {% endif %}
+        {% endif %}
+    </div>
+{% if user.is_authenticated %}
+    <div class="buttons" style="margin: auto; width:50%; text-align:center">
+        <form method="post">
+            {% csrf_token %}
+            <button class="btn btn-success ml-2" style="margin-bottom:2%; margin-top:2%; width:200px; height:100px" type="submit" name="spin-btn" value="click">Find Movie</button>
+        </form>
+        {% if movie.movieInfo %}
+            <h3>Would you watch this movie?</h3>
+            <form method="post">
+                {% csrf_token %}
+                <button class="btn btn-success ml-2" style="margin:10px; width:100px" type="submit" name="yes-btn" value="{{ movie }}">Yes</button>
+                <button class="btn btn-success ml-2" style="margin:10px; width:100px" type="submit" name="no-btn" value="{{ movie }}">No</button>
+            </form>
+        {% endif %}
+    </div>
+{% else %}
+    <h1 style="margin-bottom:2%">Please log in or sign up for an account.</h1>
+    <p><a href="{% url 'login' %}">Log In</a></p>
+    <p><a href="{% url 'signup' %}">Sign Up</a></p>
+{% endif %}
+
+{% endblock content %}
+</body>
+</html>

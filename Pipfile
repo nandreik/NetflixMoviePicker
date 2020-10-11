@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+selenium = "*"
+django = "*"
+gunicorn = "*"
+heroku = "*"
+django-crispy-forms = "*"
+whitenoise = "*"
+asgiref = "==3.2.10"
+
+[requires]
+python_version = "3.8"

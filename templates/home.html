@@ -1,0 +1,25 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+
+<body>
+{% block content %}
+
+{% if user.is_authenticated %}
+    <h1 style="margin-bottom:2%">Welcome {{ user.username }}!</h1>
+    <p><a href="{% url 'logout' %}">Log Out</a></p>
+    <p><a href="{% url 'password_reset' %}">Forgot Password</a></p>
+{% else %}
+    <h1 style="margin-bottom:2%">Please log in or sign up for an account.</h1>
+    <p><a href="{% url 'login' %}">Log In</a></p>
+    <p><a href="{% url 'signup' %}">Sign Up</a></p>
+{% endif %}
+
+{% endblock content %}
+</body>
+</html>
