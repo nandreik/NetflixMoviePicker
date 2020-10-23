@@ -1,5 +1,5 @@
 # NetflixMovieRoulette
-https://netflixmovieroulette.herokuapp.com/findfriend/
+https://netflixmovieroulette.herokuapp.com/
 
 This is is a webapp written by myself in an attempt to learn more about software development and Django.
 
