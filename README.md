@@ -1,5 +1,6 @@
 # NetflixMovieRoulette
-https://netflixmovieroulette.herokuapp.com/findfriend/
+
+https://netflixmovieroulette.herokuapp.com/
 
 This is is a webapp written by myself in an attempt to learn more about software development and Django.
 
@@ -21,3 +22,4 @@ You may ask, "Why wouldn't I just use the reelgood.com website for this purpose?
 	A new page to view a friend's movies should be pretty easy to add 
 #### 3) Add a working email service for forgotten passwords
  	Currently the forgot password email service is not functional, further research is needed to find the best way to implement this
+**If forking this project, please create a 'security.py' file in /webapp following the security_template.py file. This is to protect your SECRET_KEY**

@@ -11,6 +11,7 @@ driverPathChrome = r'webdriver/chromedriver.exe'
 driverPathChrome88 = r'webdriver/chromedriver88.exe'    # updated chrome driver for new chrome version 88. local dev only
 
 
+
 def initDriver():   # connect web driver to roulette url
     optionsChrome = Options()
 
