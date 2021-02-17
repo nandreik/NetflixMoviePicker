@@ -1,0 +1,20 @@
+/* static/css/style.css */
+/* Using Bootstrap for general styling */
+
+
+/* not sure why this css is not updating the /findmovie or /findfriend view,
+   will just style css in the html instead i guess */
+
+.movie-container {
+    display: flex;
+}
+
+.movie-info {
+    flex: 1;
+    padding: 1rem;
+}
+
+.movie-poster {
+    flex: 1;
+    padding: 1rem;
+}
