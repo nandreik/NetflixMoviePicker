@@ -8,22 +8,24 @@ import os
 
 url = "https://reelgood.com/roulette/netflix"
 driverPathChrome = r'webdriver/chromedriver.exe'
+driverPathChrome88 = r'webdriver/chromedriver88.exe'    # updated chrome driver for new chrome version 88. local dev only
 
 
 def initDriver():   # connect web driver to roulette url
     optionsChrome = Options()
-    # for local development
-    # optionsChrome.add_argument("--headless")
-    # optionsChrome.add_argument("--no-sandbox")
-    # optionsChrome.add_argument("--disable-dev-shm-usage")
-    # driver = webdriver.Chrome(executable_path=driverPathChrome, options=optionsChrome)
 
-    # for heroku deployment
-    optionsChrome.binary_location = os.environ.get('GOOGLE_CHROME_BIN')
+    # for local development
     optionsChrome.add_argument("--headless")
     optionsChrome.add_argument("--no-sandbox")
     optionsChrome.add_argument("--disable-dev-shm-usage")
-    driver = webdriver.Chrome(executable_path=os.environ.get('CHROMEDRIVER_PATH'), options=optionsChrome)
+    driver = webdriver.Chrome(executable_path=driverPathChrome88, options=optionsChrome)
+
+    # for heroku deployment
+    # optionsChrome.binary_location = os.environ.get('GOOGLE_CHROME_BIN')
+    # optionsChrome.add_argument("--headless")
+    # optionsChrome.add_argument("--no-sandbox")
+    # optionsChrome.add_argument("--disable-dev-shm-usage")
+    # driver = webdriver.Chrome(executable_path=os.environ.get('CHROMEDRIVER_PATH'), options=optionsChrome)
 
     driver.get(url)
     driver = initSpin(driver)

@@ -23,10 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECURITY WARNING: don't run with debug turned on in production!
 try:
-    from .security import *
+    from .security import SECRET_KEY, DEBUG
 except ImportError:
     print("Error: make local version of 'security.py' from the template.")
-
 ALLOWED_HOSTS = ['*']   # changed to '*'
 
 
@@ -88,12 +87,22 @@ WSGI_APPLICATION = 'webapp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+# default settings
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# # postgreSQL db
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'NetflixMoviePicker',
+#         'USER': ''
+#     }
+# }
 
 
 # Password validation
