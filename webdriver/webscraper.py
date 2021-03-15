@@ -8,8 +8,8 @@ import os
 
 url = "https://reelgood.com/roulette/netflix"
 driverPathChrome = r'webdriver/chromedriver.exe'
-driverPathChrome88 = r'webdriver/chromedriver88.exe'    # updated chrome driver for new chrome version 88. local dev only
-
+# driverPathChrome88 = r'webdriver/chromedriver88.exe'    # updated chrome driver for new chrome version 88. local dev only
+driverPathChrome88 = os.path.abspath(os.path.join(r'webdriver', r'chromedriver88.exe'))
 
 
 def initDriver():   # connect web driver to roulette url
@@ -19,6 +19,8 @@ def initDriver():   # connect web driver to roulette url
     optionsChrome.add_argument("--headless")
     optionsChrome.add_argument("--no-sandbox")
     optionsChrome.add_argument("--disable-dev-shm-usage")
+    print(driverPathChrome88)
+
     driver = webdriver.Chrome(executable_path=driverPathChrome88, options=optionsChrome)
 
     # for heroku deployment

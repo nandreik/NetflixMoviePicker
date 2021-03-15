@@ -1,10 +1,16 @@
-from django.conf.urls import url
 from django.urls import path, include
 from . import views
-from django.contrib.auth import views as auth_views
+
+# rest stuff
+from django.urls import include, path
+from rest_framework import routers
+
 
 # file to configure urls **must also be included in webapp\urls.py**
-# future note: try heroku for website hosting when ready
+
+router = routers.DefaultRouter()
+router.register(r'movies', views.MovieViewSet)
+router.register(r'users', views.UserViewSet)
 
 urlpatterns = [
     path('', views.HomePageView.as_view(), name='home'),
@@ -13,4 +19,12 @@ urlpatterns = [
     path('about/', views.AboutPageView.as_view(), name='about'),
     path('findmovie/', views.FindMoviePageView.as_view(), name='findmovie'),
     path('findfriend/', views.FindFriendPageView.as_view(), name='findfriend'),
+
+    # router api paths
+    path('', include(router.urls)),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+
+    path('api/movies/', views.MovieList.as_view(), name='movie-list'),
+    path('api/movies/<str:name>/', views.MovieDetail.as_view(), name='movie-detail'),
 ]
+

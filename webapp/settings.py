@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'crispy_forms',     # new
     'whitenoise.runserver_nostatic',    # new
     # 'django_celery_results',    # new
+    'rest_framework',   # new
 ]
 
 MIDDLEWARE = [
